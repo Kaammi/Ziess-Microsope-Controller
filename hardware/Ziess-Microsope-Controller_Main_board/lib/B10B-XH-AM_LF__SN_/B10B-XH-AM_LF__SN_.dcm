@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP B10B-XH-AM_LF__SN_
+D xh connector, 2.5mm pitch, disconnectable crimp style, 10 position
+K
+F http://www.jst-mfg.com/product/pdf/eng/eXH.pdf
+$ENDCMP
+#
+#End Doc Library

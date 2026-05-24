@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS24751RUVR
+D 18V, 12A, 3m eFuse with IMON and PG
+K
+F http://www.ti.com/lit/gpn/TPS24751
+$ENDCMP
+#
+#End Doc Library

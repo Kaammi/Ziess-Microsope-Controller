@@ -1,0 +1,252 @@
+PCBNEW-LibModule-V1  2026-05-24 19:01:41
+# encoding utf-8
+Units mm
+$INDEX
+RUV(R-PVQFN-N36)
+$EndINDEX
+$MODULE RUV(R-PVQFN-N36)
+Po 0 0 0 15 6a133d05 00000000 ~~
+Li RUV(R-PVQFN-N36)
+Cd RUV (R-PVQFN-N36)
+Kw Integrated Circuit
+Sc 0
+At SMD
+AR 
+Op 0 0 0
+T0 -0.517 -0.028 1.27 1.27 0 0.254 N V 21 N "IC**"
+T1 -0.517 -0.028 1.27 1.27 0 0.254 N I 21 N "RUV(R-PVQFN-N36)"
+DS -3.5 -1.75 3.5 -1.75 0.2 24
+DS 3.5 -1.75 3.5 1.75 0.2 24
+DS 3.5 1.75 -3.5 1.75 0.2 24
+DS -3.5 1.75 -3.5 -1.75 0.2 24
+DC -3.046 2.285 -3.071 2.285 0.254 21
+$PAD
+Po -3 1.65
+Sh "1" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.5 1.65
+Sh "2" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2 1.65
+Sh "3" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1.5 1.65
+Sh "4" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1 1.65
+Sh "5" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.5 1.65
+Sh "6" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 1.65
+Sh "7" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.5 1.65
+Sh "8" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1 1.65
+Sh "9" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.5 1.65
+Sh "10" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2 1.65
+Sh "11" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.5 1.65
+Sh "12" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3 1.65
+Sh "13" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.4 1
+Sh "14" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.4 0.5
+Sh "15" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.4 0
+Sh "16" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.4 -0.5
+Sh "17" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3.4 -1
+Sh "18" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 3 -1.65
+Sh "19" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2.5 -1.65
+Sh "20" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 2 -1.65
+Sh "21" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1.5 -1.65
+Sh "22" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 1 -1.65
+Sh "23" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.5 -1.65
+Sh "24" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0 -1.65
+Sh "25" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -0.5 -1.65
+Sh "26" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1 -1.65
+Sh "27" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -1.5 -1.65
+Sh "28" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2 -1.65
+Sh "29" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.5 -1.65
+Sh "30" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3 -1.65
+Sh "31" R 0.24 0.6 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.4 -1
+Sh "32" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.4 -0.5
+Sh "33" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.4 0
+Sh "34" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.4 0.5
+Sh "35" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -3.4 1
+Sh "36" R 0.24 0.6 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po -2.118 0
+Sh "37" R 1.514 2.25 0 0 0
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$PAD
+Po 0.957 0
+Sh "38" R 2.25 3.836 0 0 900
+At SMD N 00888000
+Ne 0 ""
+$EndPAD
+$EndMODULE RUV(R-PVQFN-N36)
+$EndLIBRARY
