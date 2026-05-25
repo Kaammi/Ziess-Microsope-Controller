@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 5.0SMDJ15AS-HRA
+D Surface Mount TVS Diode  5000W  DO-214AB
+K
+F https://www.littelfuse.com/media?resourcetype=datasheets&itemid=65c4da44-de22-43ee-8945-dbd5fa58c27d&filename=littelfuse-tvs-diode-5-0smdjxxs-hra-datasheet
+$ENDCMP
+#
+#End Doc Library
