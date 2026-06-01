@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP X322516MMB4SI
+D 16MHz  10pF 10ppm 20ppm SMD3225-4P  Crystals ROHS
+K
+F https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403291504_YXC-X322516MMB4SI_C112972.pdf
+$ENDCMP
+#
+#End Doc Library

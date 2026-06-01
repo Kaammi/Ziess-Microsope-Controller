@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP CJS-1201A
+D Slide Switches smd jumper switch, J hook, with detent
+K
+F https://www.nidec-components.com/e/catalog/switch/cjs.pdf
+$ENDCMP
+#
+#End Doc Library
