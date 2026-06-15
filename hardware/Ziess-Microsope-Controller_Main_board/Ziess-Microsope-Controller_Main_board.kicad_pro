@@ -747,13 +747,45 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "#FLG1-6,R1-142,J1-25,C1-119,#PWR2-172,C1uF1-2,U1-17,Y1-2,SW1-3,Q1-2,D1-21,L1-2,RV1",
+    "used_designators": "R99-100",
     "variants": []
   },
   "sheets": [
     [
       "95dcf840-9c51-41a6-a651-184d1d08cccc",
       "Ziess-Microsope-Controller_Main_board"
+    ],
+    [
+      "574cc6dd-7261-4d64-9e81-9fb2a2b614cb",
+      "POWER_INPUT"
+    ],
+    [
+      "ee723f97-e675-4e45-9f65-40d754c35eee",
+      "PWR_REG"
+    ],
+    [
+      "636539e4-7620-4fbb-9712-2c2ce80fc895",
+      "X_Driver"
+    ],
+    [
+      "99061527-4f22-4484-ae98-653e9a666144",
+      "Y_DRIVER"
+    ],
+    [
+      "1713f22e-cc75-4090-8e18-c6463361b2fc",
+      "DC_DRIVERS"
+    ],
+    [
+      "c5484051-8362-473e-a51a-d9e129cb3c37",
+      "LIM_ENC"
+    ],
+    [
+      "a6aeabfa-9716-4746-a51d-94c16040d788",
+      "MCU"
+    ],
+    [
+      "8f1a047e-4ca9-4e95-ac5f-276bb64488a0",
+      "IO"
     ]
   ],
   "text_variables": {},
