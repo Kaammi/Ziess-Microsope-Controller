@@ -747,7 +747,7 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "R102",
+    "used_designators": "J16,J21-22,R102-103,U18-19,#PWR164-170,D6-7,L3-6,PS1-2,C123-126",
     "variants": []
   },
   "sheets": [
