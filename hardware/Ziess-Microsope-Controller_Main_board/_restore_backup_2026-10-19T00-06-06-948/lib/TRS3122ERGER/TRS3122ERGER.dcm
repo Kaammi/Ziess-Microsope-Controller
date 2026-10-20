@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TRS3122ERGER
+D 2Tx/2Rx Low Voltage, Low Power RS232 Transceiver
+K
+F http://www.ti.com/lit/gpn/trs3122e
+$ENDCMP
+#
+#End Doc Library

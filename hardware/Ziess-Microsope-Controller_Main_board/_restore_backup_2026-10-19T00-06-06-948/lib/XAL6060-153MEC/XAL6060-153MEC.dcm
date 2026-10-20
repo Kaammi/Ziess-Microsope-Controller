@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XAL6060-153MEC
+D COILCRAFT - XAL6060-153MEC - INDUCTOR, 15UH, 6A, 20%, PWR, 11MHZ
+K
+F https://www.coilcraft.com/pdfs/xal60xx.pdf
+$ENDCMP
+#
+#End Doc Library

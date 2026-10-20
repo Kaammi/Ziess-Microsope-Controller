@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DRV8876PWPR
+D 37-V, 3.5-A brushed DC motor driver with integrated current sensing and current sense output
+K
+F http://www.ti.com/lit/ds/symlink/drv8876.pdf
+$ENDCMP
+#
+#End Doc Library

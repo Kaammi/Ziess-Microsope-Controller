@@ -5168,7 +5168,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "6.8k"
 			(at 150.495 41.275 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5905,10 +5905,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5fca61ab-e886-48a3-b2b3-e47bf751682c")
 		(property "Reference" "R8"
-			(at 129.54 106.6799 0)
+			(at 128.778 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5919,7 +5918,7 @@
 			)
 		)
 		(property "Value" "47k"
-			(at 129.54 109.2199 0)
+			(at 128.524 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6149,10 +6148,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68175f41-dc52-475b-bd48-ec2f4c378865")
 		(property "Reference" "R6"
-			(at 117.475 81.2799 0)
+			(at 116.84 81.788 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6163,7 +6161,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 117.475 83.8199 0)
+			(at 116.84 83.566 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6231,10 +6229,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7369ce08-4fc5-4f18-80a6-ac862caeeda0")
 		(property "Reference" "C6"
-			(at 142.24 106.6862 0)
+			(at 141.986 106.934 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6244,8 +6241,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "33nF"
-			(at 142.24 109.2262 0)
+		(property "Value" "100nF"
+			(at 141.986 108.712 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6811,10 +6808,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a048639f-1b57-4b11-bd43-e8c7f40b2c3f")
 		(property "Reference" "R4"
-			(at 134.62 48.2599 0)
+			(at 133.604 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6825,7 +6821,7 @@
 			)
 		)
 		(property "Value" "36"
-			(at 134.62 50.7999 0)
+			(at 133.604 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7077,7 +7073,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1.5k"
+		(property "Value" "6.8k"
 			(at 155.575 47.625 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7470,10 +7466,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5fe2573-1379-4800-a20f-3fea5fd33182")
 		(property "Reference" "R5"
-			(at 117.475 54.6099 0)
+			(at 117.094 55.372 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7483,8 +7478,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "15k"
-			(at 117.475 57.1499 0)
+		(property "Value" "130k"
+			(at 116.84 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7653,7 +7648,7 @@
 				)
 			)
 		)
-		(property "Value" "0430450606"
+		(property "Value" "172447-0006"
 			(at 26.416 76.454 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7663,7 +7658,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:0430450606"
+		(property "Footprint" "Library:172447-YY06"
 			(at 26.67 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7733,10 +7728,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "df88796c-35c9-4024-9335-c0501746009f")
 		(property "Reference" "R7"
-			(at 117.475 106.6799 0)
+			(at 117.094 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7746,8 +7740,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "130k"
-			(at 117.475 109.2199 0)
+		(property "Value" "15k"
+			(at 116.84 108.966 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7818,7 +7812,7 @@
 		(dnp no)
 		(uuid "fad82529-f4d2-4f33-946d-846db7365b3c")
 		(property "Reference" "R9"
-			(at 178.435 108.585 0)
+			(at 178.054 108.458 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7829,7 +7823,7 @@
 			)
 		)
 		(property "Value" "1.3k"
-			(at 180.975 110.49 0)
+			(at 179.578 110.236 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

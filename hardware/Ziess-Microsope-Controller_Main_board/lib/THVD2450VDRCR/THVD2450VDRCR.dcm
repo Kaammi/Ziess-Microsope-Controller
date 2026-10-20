@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP THVD2450VDRCR
+D RS-422/RS-485 Interface IC 70-V bus-fault protected, flexible IO, 3-V to 5.5-V 50-Mbps half-duplex RS-485 transceiver
+K
+F https://www.digikey.com/en/products/detail/texas-instruments/THVD2450VDRCR/17395007
+$ENDCMP
+#
+#End Doc Library

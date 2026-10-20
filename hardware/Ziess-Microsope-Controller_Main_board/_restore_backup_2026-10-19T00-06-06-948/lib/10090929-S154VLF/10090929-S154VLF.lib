@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 10090929-S154VLF
+#/18754349/1014753/2.50/17/2/Connector
+DEF 10090929-S154VLF J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "10090929-S154VLF" 750 200 50 H V L CNN
+F2 "10090929S154VLF" 750 100 50 H I L CNN
+F3 "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/10090929.pdf" 750 0 50 H I L CNN
+F4 "D-Sub High Density Board Mount Connectors, Input Output Connectors, 15-Way Female Straight, 200 Mating cycles" 750 -100 50 H I L CNN "Description"
+F5 "12.4" 750 -200 50 H I L CNN "Height"
+F6 "Amphenol Communications Solutions" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "10090929-S154VLF" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "" 750 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "10090929-S154VLF" 750 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/10090929-s154vlf/amphenol-fci?utm_currency=USD&region=nac" 750 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X 4 4 0 -300 200 R 50 50 0 0 P
+X 5 5 0 -400 200 R 50 50 0 0 P
+X 6 6 0 -500 200 R 50 50 0 0 P
+X 7 7 0 -600 200 R 50 50 0 0 P
+X 8 8 0 -700 200 R 50 50 0 0 P
+X 9 9 0 -800 200 R 50 50 0 0 P
+X 10 10 900 0 200 L 50 50 0 0 P
+X 11 11 900 -100 200 L 50 50 0 0 P
+X 12 12 900 -200 200 L 50 50 0 0 P
+X 13 13 900 -300 200 L 50 50 0 0 P
+X 14 14 900 -400 200 L 50 50 0 0 P
+X 15 15 900 -500 200 L 50 50 0 0 P
+X MH1 MH1 900 -600 200 L 50 50 0 0 P
+X MH2 MH2 900 -700 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -900 200 -900 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MD-80SV
+D 8 Pin, Vertical Mount, Mini Circular Connector
+K
+F https://www.sameskydevices.com/product/resource/md-sv.pdf
+$ENDCMP
+#
+#End Doc Library

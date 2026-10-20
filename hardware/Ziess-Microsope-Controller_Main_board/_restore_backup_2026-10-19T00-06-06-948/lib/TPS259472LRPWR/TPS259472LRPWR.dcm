@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS259472LRPWR
+D 2.7-V to 23-V, 28-m, 5.5-A eFuse with integrated reverse polarity protection
+K
+F https://www.ti.com/lit/ds/symlink/tps25947.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model 5787834-1
+#/192711/1014753/2.50/4/2/Connector
+DEF 5787834-1 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "5787834-1" 650 200 50 H V L CNN
+F2 "5787834-1" 650 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=7-1773442-0&DocType=Data%20Sheet&DocLang=English&PartCntxt=5787834-1&DocFormat=pdf" 650 0 50 H I L CNN
+F4 "Body Features: Connector Profile Standard | Offset 0 MM | Shell Plating Material Tin | Shell Plating Finish Bright | Configuration Features: Number of Positions 4 | Number of Ports 1 | Contact Features: Contact Mating Area Plating Material Thickness .76 MICM | Contact Current Rating (Max) 1 AMP | Contact Mating Area Plating Material Thickness 29.92 MICIN | Contact Mating Area Plating Material Gold or Gold Flash over Palladium Nickel | Dimensions: PCB Thickness (Recommended) 1.57 MM | PCB Thickness (Recommen" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "5787834-1" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "571-5787834-1" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity/5787834-1?qs=Lu3apKW7jUjkeBryP%2FWdbQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "5787834-1" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/5787834-1/te-connectivity?utm_currency=USD&region=nac" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

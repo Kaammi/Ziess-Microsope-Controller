@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model B3B-XH-AM_LF__SN_
+#/613919/1014753/2.50/3/3/Connector
+DEF B3B-XH-AM_LF__SN_ J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "B3B-XH-AM_LF__SN_" 650 200 50 H V L CNN
+F2 "B3BXHAMLFSN" 650 100 50 H I L CNN
+F3 "chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://www.mouser.com/datasheet/3/1070/1/eXH.pdf" 650 0 50 H I L CNN
+F4 "Connector Header Through Hole 3 position 0.098\" (2.50mm) 3A,250V,-25C ~ 85C" 650 -100 50 H I L CNN "Description"
+F5 "7" 650 -200 50 H I L CNN "Height"
+F6 "JST (JAPAN SOLDERLESS TERMINALS)" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "B3B-XH-AM(LF)(SN)" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "306-B3BXHAMLFSNP" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/JST-Commercial/B3B-XH-AMLFSN?qs=cdbOS8ANM9B1j44d7kpaHQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "B3B-XH-AM(LF)(SN)" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/b3b-xh-a-m-lf-sn_1/jst-manufacturing.html?utm_currency=USD&region=europe" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

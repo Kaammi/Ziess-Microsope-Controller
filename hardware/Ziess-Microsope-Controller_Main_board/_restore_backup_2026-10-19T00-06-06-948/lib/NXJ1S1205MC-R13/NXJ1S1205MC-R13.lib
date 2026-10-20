@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NXJ1S1205MC-R13
+#/270397/1014753/2.50/5/4/Power Supply
+DEF NXJ1S1205MC-R13 PS 0 30 Y Y 1 F N
+F0 "PS" 1050 300 50 H V L CNN
+F1 "NXJ1S1205MC-R13" 1050 200 50 H V L CNN
+F2 "NXJ1S1205MCR13" 1050 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/NXJ1S1205MC-R13.pdf" 1050 0 50 H I L CNN
+F4 "Isolated DC/DC Converters 1W 12Vin 5Vout 200mA SM" 1050 -100 50 H I L CNN "Description"
+F5 "4.51" 1050 -200 50 H I L CNN "Height"
+F6 "Murata Electronics" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "NXJ1S1205MC-R13" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "580-NXJ1S1205MC-R13" 1050 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Murata-Power-Solutions/NXJ1S1205MC-R13?qs=ROOYoSPRM2tF06yTMnVNsw%3D%3D" 1050 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "NXJ1S1205MC-R13" 1050 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/nxj1s1205mc-r13/murata-power-solutions?utm_currency=USD&region=nac" 1050 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 3 0 -100 200 R 50 50 0 0 P
+X -VOUT 7 0 -200 200 R 50 50 0 0 P
+X +VOUT 8 1200 -100 200 L 50 50 0 0 P
+X NC 14 1200 0 200 L 50 50 0 0 N
+P 5 0 1 6 200 100 1000 100 1000 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

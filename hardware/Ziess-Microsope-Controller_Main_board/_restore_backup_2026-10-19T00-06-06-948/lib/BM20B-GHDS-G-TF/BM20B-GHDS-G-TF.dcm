@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BM20B-GHDS-G-TF
+D Connector Header Surface Mount 20 position 0.049" (1.25mm)
+K
+F https://4donline.ihs.com/images/VipMasterIC/IC/JSTM/JSTMS02863/JSTMS02863-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0
+$ENDCMP
+#
+#End Doc Library

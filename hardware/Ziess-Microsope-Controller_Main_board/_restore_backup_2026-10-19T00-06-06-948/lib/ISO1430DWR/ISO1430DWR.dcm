@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ISO1430DWR
+D 5-kVrms Isolated RS-485/RS-422 Transceiver With Robust EMC
+K
+F http://www.ti.com/lit/gpn/ISO1430
+$ENDCMP
+#
+#End Doc Library

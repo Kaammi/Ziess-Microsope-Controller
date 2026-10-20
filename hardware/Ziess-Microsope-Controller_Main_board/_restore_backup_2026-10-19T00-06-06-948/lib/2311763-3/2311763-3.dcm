@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2311763-3
+D Body Features: Connector Profile Standard | Primary Product Color Black | Configuration Features: Number of Rows 3 | PCB Mount Orientation Right Angle | Number of Positions 15 | Contact Features: Contact Shape & Form Round | Contact Current Rating (Max) 3 AMP | Dimensions: Row-to-Row Spacing .077 INCH | Row-to-Row Spacing 1.98 MM | Housing Features: Housing Material PBT GF | Centerline (Pitch) .09 INCH | Centerline (Pitch) 2.29 MM | Mechanical Attachment: Mating Retention Type Threaded Inserts, 4-40 UNC | M
+K
+F https://www.arrow.com/en/products/2311763-3/te-connectivity
+$ENDCMP
+#
+#End Doc Library
