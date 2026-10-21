@@ -2145,12 +2145,6 @@
 		(uuid "9b0d7465-daac-43ad-806f-df88942517da")
 	)
 	(junction
-		(at 68.58 147.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14ae12d-2fb9-4e93-a62a-c5867c19e042")
-	)
-	(junction
 		(at 223.52 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2610,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 74.93 147.32)
+			(xy 60.96 147.32) (xy 74.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -2657,16 +2651,6 @@
 			(type default)
 		)
 		(uuid "54619f73-6b6d-48ce-8ff9-05ddb7f557c9")
-	)
-	(wire
-		(pts
-			(xy 60.96 147.32) (xy 68.58 147.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58c7d281-f3c7-4c98-bed9-21c8848d0f4a")
 	)
 	(wire
 		(pts
@@ -3300,6 +3284,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 139.7) (xy 167.64 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2d90145-1810-44f9-bb1b-4bd08b98425c")
+	)
+	(wire
+		(pts
 			(xy 97.79 139.7) (xy 97.79 140.97)
 		)
 		(stroke
@@ -3429,16 +3423,16 @@
 		)
 		(uuid "29f24585-f6b9-470f-b857-7df502708143")
 	)
-	(hierarchical_label "12V_PRES"
+	(hierarchical_label "5V_PG"
 		(shape output)
-		(at 160.02 139.7 0)
+		(at 167.64 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "6849378f-07ee-499a-a81f-a00842555601")
+		(uuid "552ca5cf-ef15-4dc0-b4eb-836664b62c92")
 	)
 	(hierarchical_label "+5VSB"
 		(shape input)
@@ -3683,6 +3677,87 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 80.01 64.77 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "11c62fd7-06e8-4e35-95f0-6927ce8e163f")
+		(property "Reference" "C11"
+			(at 82.55 63.5062 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 82.55 65.405 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 80.01 64.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f3cbd819-cd02-4f93-9828-c09d2fe98294")
+		)
+		(pin "2"
+			(uuid "cf26ab3a-553d-4603-95ed-c3e202ea5b90")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -4044,7 +4119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 69.85 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -4087,6 +4162,88 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 139.7 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "318a7298-bf7e-4c88-bfd6-07036d39851f")
+		(property "Reference" "R97"
+			(at 163.83 137.795 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 164.465 141.605 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9fdc5ccd-f186-4e4e-b088-30436da8798c")
+		)
+		(pin "2"
+			(uuid "4f69acc7-6294-47e1-92d3-bbaa7a5493d5")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
+					(reference "R97")
 					(unit 1)
 				)
 			)
@@ -4192,7 +4349,7 @@
 				)
 			)
 		)
-		(property "Value" "12uH"
+		(property "Value" "15uH"
 			(at 181.61 49.53 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4245,83 +4402,6 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 68.58 147.32 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "39f88c74-1e44-4b23-b0a9-d63b159078b9")
-		(property "Reference" "#PWR017"
-			(at 68.58 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5VSB"
-			(at 68.58 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 68.58 147.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "98bbcb27-f8d4-4001-9630-b18e34271ec3")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5650,87 +5730,6 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
 					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 80.01 64.77 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1f69a21-dac9-4286-a2a9-7faf852f2537")
-		(property "Reference" "C11"
-			(at 82.55 63.5062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22uF"
-			(at 82.55 65.405 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 80.01 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 80.01 64.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e7775803-cf13-4e5a-9323-e307449a0dc5")
-		)
-		(pin "2"
-			(uuid "9bb74bec-0252-428d-aec0-e03457e2173a")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/ee723f97-e675-4e45-9f65-40d754c35eee"
-					(reference "C11")
 					(unit 1)
 				)
 			)

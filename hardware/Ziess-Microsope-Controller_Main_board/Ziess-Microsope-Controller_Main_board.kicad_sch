@@ -257,13 +257,13 @@
 		(uuid "50571380-1530-4582-a067-ff806c3755ab")
 	)
 	(junction
-		(at -10.16 170.18)
+		(at 63.5 172.72)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "996ba71f-afc9-4d42-b422-08cf97978b91")
 	)
 	(junction
-		(at -10.16 165.1)
+		(at 63.5 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a9b64f43-7046-4820-a3f2-d9bacfc34e5e")
@@ -275,7 +275,7 @@
 		(uuid "cebac06c-b7bd-4673-8b5e-32a6d8b004f5")
 	)
 	(junction
-		(at -10.16 175.26)
+		(at 63.5 177.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4af9289-68db-471d-bab0-12e0e551902f")
@@ -1225,7 +1225,7 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 175.26) (xy -10.16 175.26)
+			(xy 60.96 177.8) (xy 63.5 177.8)
 		)
 		(stroke
 			(width 0)
@@ -1325,7 +1325,7 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 160.02) (xy -10.16 160.02)
+			(xy 60.96 162.56) (xy 63.5 162.56)
 		)
 		(stroke
 			(width 0)
@@ -1415,7 +1415,7 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 165.1) (xy -10.16 165.1)
+			(xy 60.96 167.64) (xy 63.5 167.64)
 		)
 		(stroke
 			(width 0)
@@ -1435,7 +1435,7 @@
 	)
 	(wire
 		(pts
-			(xy -12.7 170.18) (xy -10.16 170.18)
+			(xy 60.96 172.72) (xy 63.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1495,7 +1495,7 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 165.1) (xy -10.16 170.18)
+			(xy 63.5 167.64) (xy 63.5 172.72)
 		)
 		(stroke
 			(width 0)
@@ -1975,7 +1975,7 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 175.26) (xy -10.16 177.8)
+			(xy 63.5 177.8) (xy 63.5 180.34)
 		)
 		(stroke
 			(width 0)
@@ -2205,7 +2205,7 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 160.02) (xy -10.16 165.1)
+			(xy 63.5 162.56) (xy 63.5 167.64)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy -10.16 170.18) (xy -10.16 175.26)
+			(xy 63.5 172.72) (xy 63.5 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2375,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at -15.24 175.26 90)
+		(at 58.42 177.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2385,7 +2385,7 @@
 		(dnp no)
 		(uuid "105119ae-ffbc-4c23-bbf2-89964ab3bfd3")
 		(property "Reference" "H4"
-			(at -20.32 175.26 90)
+			(at 53.34 177.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2395,7 +2395,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -16.51 171.45 90)
+			(at 57.15 173.99 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2406,7 +2406,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -15.24 175.26 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2417,7 +2417,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -15.24 175.26 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2428,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at -15.24 175.26 0)
+			(at 58.42 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2452,7 +2452,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at -15.24 165.1 90)
+		(at 58.42 167.64 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2462,7 +2462,7 @@
 		(dnp no)
 		(uuid "2f0cc108-9c64-4a55-ab1e-020a996a28c6")
 		(property "Reference" "H2"
-			(at -20.32 165.1 90)
+			(at 53.34 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2472,7 +2472,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -16.51 161.29 90)
+			(at 57.15 163.83 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2483,7 +2483,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -15.24 165.1 0)
+			(at 58.42 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2494,7 +2494,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -15.24 165.1 0)
+			(at 58.42 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2505,7 +2505,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at -15.24 165.1 0)
+			(at 58.42 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2529,7 +2529,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at -15.24 160.02 90)
+		(at 58.42 162.56 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2539,7 +2539,7 @@
 		(dnp no)
 		(uuid "58abb2e6-6d52-4b65-83b2-2e43fda7c3f5")
 		(property "Reference" "H1"
-			(at -20.32 160.02 90)
+			(at 53.34 162.56 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -16.51 156.21 90)
+			(at 57.15 158.75 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2560,7 +2560,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -15.24 160.02 0)
+			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2571,7 +2571,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -15.24 160.02 0)
+			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2582,7 +2582,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at -15.24 160.02 0)
+			(at 58.42 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2606,7 +2606,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at -10.16 177.8 0)
+		(at 63.5 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2617,7 +2617,7 @@
 		(fields_autoplaced yes)
 		(uuid "d457d672-0d28-4f87-9ab4-e6316a2ccde5")
 		(property "Reference" "#PWR0164"
-			(at -10.16 184.15 0)
+			(at 63.5 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2628,7 +2628,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at -10.16 182.245 0)
+			(at 63.5 184.785 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2639,7 +2639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at -10.16 177.8 0)
+			(at 63.5 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +2650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -10.16 177.8 0)
+			(at 63.5 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2661,7 +2661,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at -10.16 177.8 0)
+			(at 63.5 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2685,7 +2685,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at -15.24 170.18 90)
+		(at 58.42 172.72 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2695,7 +2695,7 @@
 		(dnp no)
 		(uuid "f5c0cb76-5823-4980-8fe3-8f86a8de73ae")
 		(property "Reference" "H3"
-			(at -20.32 170.18 90)
+			(at 53.34 172.72 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2705,7 +2705,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -16.51 166.37 90)
+			(at 57.15 168.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2716,7 +2716,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad_TopBottom"
-			(at -15.24 170.18 0)
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2727,7 +2727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at -15.24 170.18 0)
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2738,7 +2738,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at -15.24 170.18 0)
+			(at 58.42 172.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3006,7 +3006,7 @@
 				(justify right)
 			)
 		)
-		(pin "+5VSB" input
+		(pin "+5VSB" output
 			(at 64.77 21.59 0)
 			(uuid "f4be97f0-47d5-4eaa-9bae-171d1f4440c8")
 			(effects
@@ -3029,6 +3029,16 @@
 		(pin "12V_EN" input
 			(at 64.77 48.26 0)
 			(uuid "87274409-9cd5-4ab0-afb0-5fa2a2072332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "12V_SENSE" output
+			(at 64.77 50.8 0)
+			(uuid "e9d270e0-fb62-4ad0-8791-c76361f31efc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4310,7 @@
 				(justify right)
 			)
 		)
-		(pin "Y_ENC_DO" input
+		(pin "Y_ENC_DO" output
 			(at 64.77 92.71 0)
 			(uuid "5a9d1ddf-5f50-4054-b18d-06c7591e6e06")
 			(effects
@@ -4310,7 +4320,7 @@
 				(justify right)
 			)
 		)
-		(pin "Y_ENC_INDEX" input
+		(pin "Y_ENC_INDEX" output
 			(at 64.77 87.63 0)
 			(uuid "890edcd4-7d4d-4a87-a15c-4be28bb71639")
 			(effects
@@ -4699,9 +4709,9 @@
 				(justify left)
 			)
 		)
-		(pin "12V_PRES" output
+		(pin "5V_PG" output
 			(at 111.76 35.56 0)
-			(uuid "764ea427-c505-45e8-a4b3-99415c0eb888")
+			(uuid "55c48006-54e5-4953-a1ec-d57165c97021")
 			(effects
 				(font
 					(size 1.27 1.27)
