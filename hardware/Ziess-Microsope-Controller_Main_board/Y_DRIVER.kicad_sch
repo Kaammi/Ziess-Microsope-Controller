@@ -1946,7 +1946,7 @@
 	)
 	(text "2010"
 		(exclude_from_sim no)
-		(at 181.61 127 0)
+		(at 181.864 128.016 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4336,7 +4336,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "B4B-XH-AM"
+		(property "Value" "43045-0418"
 			(at 234.95 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6008,10 +6008,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "96eb5890-db3b-4806-a948-ff3ffa945fd9")
 		(property "Reference" "R48"
 			(at 72.39 90.805 0)
@@ -6247,10 +6247,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
+		(dnp no)
 		(uuid "9beb2b06-a6d0-4a9c-95d4-b01c86a448e6")
 		(property "Reference" "R44"
 			(at 72.39 79.375 0)
@@ -6436,7 +6436,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 185.42 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -6651,10 +6651,10 @@
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a97b52ec-5afb-4a8b-b320-6e16a1ea39bd")
 		(property "Reference" "R45"
 			(at 102.235 80.645 90)
@@ -7570,7 +7570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 175.26 113.03 0)
 			(hide yes)
 			(show_name no)

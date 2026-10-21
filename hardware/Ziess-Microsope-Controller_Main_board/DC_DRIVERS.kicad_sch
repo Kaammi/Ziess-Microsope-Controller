@@ -1680,6 +1680,36 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "25V"
+		(exclude_from_sim no)
+		(at 167.132 71.374 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3da39387-8bb1-4452-857c-0580dc874567")
+	)
+	(text "25V"
+		(exclude_from_sim no)
+		(at 56.134 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64996617-2381-4b12-99d2-e2a6001f0293")
+	)
+	(text "25V"
+		(exclude_from_sim no)
+		(at 64.262 132.334 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7371e517-4835-4d54-895b-8a652519f441")
+	)
 	(junction
 		(at 154.94 116.84)
 		(diameter 0)

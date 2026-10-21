@@ -5,6 +5,309 @@
 	(uuid "50adba06-4cad-4ae0-8e1b-53c9b6f56dce")
 	(paper "USLegal")
 	(lib_symbols
+		(symbol "Connector:TC2030"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 1.27 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TC2030"
+				(at 1.27 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+				(at 1.27 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Tag-Connect’s 6-pins connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Debug plug-of-nails"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "*TC2030*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TC2030_1_1"
+				(rectangle
+					(start -2.54 7.62)
+					(end 5.08 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -0.762 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 0 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 0)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 -2.54)
+					(radius 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.302 -5.842)
+					(radius 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x10"
 			(pin_names
 				(offset 1.016)
@@ -4809,10 +5112,6 @@
 		(uuid "0a7db7b1-e69e-4bb3-87ca-aa0aa9972d37")
 	)
 	(no_connect
-		(at 157.48 106.68)
-		(uuid "105c7976-885d-4cc1-a128-6e3b1333e25c")
-	)
-	(no_connect
 		(at 157.48 134.62)
 		(uuid "113bf8df-1396-43cb-b065-a4cf7842992e")
 	)
@@ -5362,6 +5661,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 83.82) (xy 312.42 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22b3abbc-bd52-4b68-8ffb-0b4ae278acff")
+	)
+	(wire
+		(pts
 			(xy 289.56 49.53) (xy 311.15 49.53)
 		)
 		(stroke
@@ -5429,6 +5738,16 @@
 			(type default)
 		)
 		(uuid "2c9b3294-5fc6-4f67-88ce-30b82e7e5b3b")
+	)
+	(wire
+		(pts
+			(xy 308.61 88.9) (xy 308.61 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e521863-b5ec-41af-82b0-ebeb8a2e2293")
 	)
 	(wire
 		(pts
@@ -5642,6 +5961,16 @@
 	)
 	(wire
 		(pts
+			(xy 308.61 82.55) (xy 308.61 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e2b513d-8b39-46be-a1c0-411798e15973")
+	)
+	(wire
+		(pts
 			(xy 78.74 68.58) (xy 80.01 68.58)
 		)
 		(stroke
@@ -5749,6 +6078,16 @@
 			(type default)
 		)
 		(uuid "607426f5-8273-42ad-800a-c8481be33984")
+	)
+	(wire
+		(pts
+			(xy 326.39 88.9) (xy 325.12 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619a17aa-dd15-4790-a4f3-66ea8fe86ae5")
 	)
 	(wire
 		(pts
@@ -6092,6 +6431,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 86.36) (xy 325.12 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "913d19b7-61b6-489b-a710-32a9e78b01ef")
+	)
+	(wire
+		(pts
 			(xy 142.24 27.94) (xy 148.59 27.94)
 		)
 		(stroke
@@ -6109,6 +6458,16 @@
 			(type default)
 		)
 		(uuid "91727024-4f9a-437a-8e9b-c3402bc8576e")
+	)
+	(wire
+		(pts
+			(xy 308.61 86.36) (xy 312.42 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "923b629b-5d75-497d-991f-cfd7b1f2cddc")
 	)
 	(wire
 		(pts
@@ -6302,6 +6661,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 106.68) (xy 157.48 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2213616-eda3-40f5-93e0-e68807cfccb2")
+	)
+	(wire
+		(pts
 			(xy 95.25 43.18) (xy 100.33 43.18)
 		)
 		(stroke
@@ -6432,6 +6801,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 83.82) (xy 325.12 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b655c64b-2cd1-44bb-a7eb-a0eed1789d36")
+	)
+	(wire
+		(pts
 			(xy 247.65 66.04) (xy 247.65 69.85)
 		)
 		(stroke
@@ -6439,6 +6818,16 @@
 			(type default)
 		)
 		(uuid "b7df4e03-a996-4aa4-b375-cd6f2f6df71e")
+	)
+	(wire
+		(pts
+			(xy 312.42 88.9) (xy 308.61 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9e5f5ae-03e7-4419-a8d5-aeb4e540318e")
 	)
 	(wire
 		(pts
@@ -7078,6 +7467,30 @@
 			)
 		)
 	)
+	(global_label "SWCLK"
+		(shape input)
+		(at 326.39 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2a9feba8-dac2-4adb-9a7e-dfb95bc4b4b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.6042 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXP_GPIO_4"
 		(shape input)
 		(at 242.57 44.45 180)
@@ -7102,6 +7515,30 @@
 			)
 		)
 	)
+	(global_label "SWO"
+		(shape input)
+		(at 326.39 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "55925641-de20-45b7-a7d4-9e7469249fbc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 333.3666 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "EXP_GPIO_5"
 		(shape input)
 		(at 242.57 46.99 180)
@@ -7115,6 +7552,30 @@
 		(uuid "5c74aa3b-d4cd-4df8-b17d-9402e6831d3c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.3363 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "MCU_RESET"
+		(shape input)
+		(at 308.61 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5e35a654-5ee9-4ad7-af60-227a35bebbd7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 294.8602 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7198,6 +7659,30 @@
 			)
 		)
 	)
+	(global_label "SWO"
+		(shape input)
+		(at 162.56 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "caf3403a-d020-4e9f-9560-4673649267ce")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 169.5366 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "SWCLK"
 		(shape input)
 		(at 162.56 91.44 0)
@@ -7235,6 +7720,30 @@
 		(uuid "d164cfdc-46a0-4873-84bd-11f10023c0c7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 172.7646 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SWDIO"
+		(shape input)
+		(at 326.39 83.82 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3aa99ae-1e3e-4a10-a697-895fed26ec61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.2414 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7833,7 +8342,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 91.44 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7904,7 +8413,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8719,7 +9228,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 48.26 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9185,6 +9694,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TC2030")
+		(at 317.5 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "53ce0844-2870-496e-8d2c-386c11058617")
+		(property "Reference" "J16"
+			(at 318.77 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TC2030"
+			(at 318.77 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+			(at 318.77 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
+			(at 318.77 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Tag-Connect’s 6-pins connector"
+			(at 317.5 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "5"
+			(uuid "262f4791-d4b3-4117-b6f7-7f43d4cc4490")
+		)
+		(pin "1"
+			(uuid "5edf3d54-9afb-4353-9859-e76f203552fc")
+		)
+		(pin "2"
+			(uuid "3212665e-bd8e-4817-a0eb-3bb50cc09787")
+		)
+		(pin "3"
+			(uuid "17fe55c1-202d-406f-9cc1-9599ddf3b694")
+		)
+		(pin "4"
+			(uuid "d5548c03-d62b-4452-ba39-2509684a4bd3")
+		)
+		(pin "6"
+			(uuid "74d872d5-4f7f-4937-92ca-34f383f1c4d8")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a6aeabfa-9716-4746-a51d-94c16040d788"
+					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 55.88 72.39 0)
 		(mirror y)
@@ -9602,6 +10203,83 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a6aeabfa-9716-4746-a51d-94c16040d788"
 					(reference "C112")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 308.61 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "635578d0-e056-447c-8832-1033331b7ad8")
+		(property "Reference" "#PWR0218"
+			(at 308.61 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 308.61 78.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 308.61 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa1cfcce-5b32-44f0-bc96-67050d3c89d7")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a6aeabfa-9716-4746-a51d-94c16040d788"
+					(reference "#PWR0218")
 					(unit 1)
 				)
 			)
@@ -10033,7 +10711,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 45.72 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10356,7 +11034,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 35.56 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10843,7 +11521,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 102.87 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11716,7 +12394,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 38.1 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11770,6 +12448,85 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a6aeabfa-9716-4746-a51d-94c16040d788"
 					(reference "R124")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 308.61 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cf61fa82-8ed5-47d3-bf01-225a4327dfe3")
+		(property "Reference" "#PWR0219"
+			(at 308.61 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 308.61 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 308.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 308.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 308.61 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a9c1a003-ffdf-4e3a-917e-0686aa899268")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a6aeabfa-9716-4746-a51d-94c16040d788"
+					(reference "#PWR0219")
 					(unit 1)
 				)
 			)
@@ -12571,7 +13328,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "330"
 			(at 289.56 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
