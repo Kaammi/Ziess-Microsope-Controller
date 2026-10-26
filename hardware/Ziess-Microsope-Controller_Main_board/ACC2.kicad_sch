@@ -5,7 +5,7 @@
 	(uuid "c011441e-dae7-4a1f-a4a4-69be42532428")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic_Shielded:Conn_01x08_Shielded"
+		(symbol "Connector_Generic:Conn_01x08"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -16,7 +16,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0.254 9.906 0)
+				(at 0 10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -25,15 +25,14 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x08_Shielded"
-				(at 1.016 -12.446 0)
+			(property "Value" "Conn_01x08"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -58,7 +57,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic shielded connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -80,7 +79,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "Connector*:*_1x??-1SH*"
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -91,21 +90,10 @@
 					)
 				)
 			)
-			(symbol "Conn_01x08_Shielded_1_1"
+			(symbol "Conn_01x08_1_1"
 				(rectangle
 					(start -1.27 8.89)
 					(end 1.27 -11.43)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.016 8.636)
-					(end 1.016 -11.176)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -115,8 +103,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 7.747)
-					(end 0.254 7.493)
+					(start -1.27 7.747)
+					(end 0 7.493)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -126,8 +114,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 5.207)
-					(end 0.254 4.953)
+					(start -1.27 5.207)
+					(end 0 4.953)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -137,8 +125,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 2.667)
-					(end 0.254 2.413)
+					(start -1.27 2.667)
+					(end 0 2.413)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -148,8 +136,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 0.127)
-					(end 0.254 -0.127)
+					(start -1.27 0.127)
+					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -159,8 +147,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -2.413)
-					(end 0.254 -2.667)
+					(start -1.27 -2.413)
+					(end 0 -2.667)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -170,8 +158,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -4.953)
-					(end 0.254 -5.207)
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -181,8 +169,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -7.493)
-					(end 0.254 -7.747)
+					(start -1.27 -7.493)
+					(end 0 -7.747)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -192,8 +180,8 @@
 					)
 				)
 				(rectangle
-					(start -1.016 -10.033)
-					(end 0.254 -10.287)
+					(start -1.27 -10.033)
+					(end 0 -10.287)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -204,7 +192,7 @@
 				)
 				(pin passive line
 					(at -5.08 7.62 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_1"
 						(effects
 							(font
@@ -222,7 +210,7 @@
 				)
 				(pin passive line
 					(at -5.08 5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_2"
 						(effects
 							(font
@@ -240,7 +228,7 @@
 				)
 				(pin passive line
 					(at -5.08 2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_3"
 						(effects
 							(font
@@ -258,7 +246,7 @@
 				)
 				(pin passive line
 					(at -5.08 0 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_4"
 						(effects
 							(font
@@ -276,7 +264,7 @@
 				)
 				(pin passive line
 					(at -5.08 -2.54 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_5"
 						(effects
 							(font
@@ -294,7 +282,7 @@
 				)
 				(pin passive line
 					(at -5.08 -5.08 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_6"
 						(effects
 							(font
@@ -312,7 +300,7 @@
 				)
 				(pin passive line
 					(at -5.08 -7.62 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_7"
 						(effects
 							(font
@@ -330,7 +318,7 @@
 				)
 				(pin passive line
 					(at -5.08 -10.16 0)
-					(length 4.064)
+					(length 3.81)
 					(name "Pin_8"
 						(effects
 							(font
@@ -339,24 +327,6 @@
 						)
 					)
 					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -15.24 90)
-					(length 3.81)
-					(name "Shield"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "SH"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3106,1214 +3076,244 @@
 		)
 	)
 	(junction
-		(at 135.89 110.49)
+		(at 133.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "02a51ffb-56ea-4e46-bee9-0c858da9b96f")
-	)
-	(junction
-		(at 19.05 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "06784e85-3411-479d-92c5-8443ee64c876")
-	)
-	(junction
-		(at 76.2 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17e773de-9170-42c8-b34e-c94e5724c62a")
-	)
-	(junction
-		(at 199.39 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25747a8f-7141-437d-b3cf-aba53d2220b0")
-	)
-	(junction
-		(at 203.2 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a0c241-084a-4297-b607-790b3c351c3c")
-	)
-	(junction
-		(at 265.43 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28aacb40-9981-4f34-8bf6-29a32b7a2fd6")
-	)
-	(junction
-		(at 182.88 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2c8bbdbd-67dd-4b82-afb1-dd3e8196f19d")
-	)
-	(junction
-		(at 105.41 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2fcd2816-3f93-4826-93c8-0b297edd89df")
-	)
-	(junction
-		(at 99.06 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "33e045c9-ceb7-43d1-8957-a4ebea762acd")
-	)
-	(junction
-		(at 25.4 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4393946c-9922-4006-9555-7befb3e63fb1")
-	)
-	(junction
-		(at 199.39 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d868733-c4a6-4864-ba56-b2650b3ce1af")
-	)
-	(junction
-		(at 243.84 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "535c3759-cb4f-44c3-b170-04b6d74f9afd")
-	)
-	(junction
-		(at 116.84 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "565d7cd3-a16c-4690-9daf-140214578ec7")
-	)
-	(junction
-		(at 67.31 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5762743c-88c8-4cf0-b242-07af388585c8")
-	)
-	(junction
-		(at 215.9 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5d291d8d-2f6a-498e-9f20-27eb3eaa8c16")
-	)
-	(junction
-		(at 189.23 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5dfd8048-8bb3-4791-8554-68dfd7c28513")
-	)
-	(junction
-		(at 172.72 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62afe1ac-135f-4e43-8c60-4ced88a75ab5")
-	)
-	(junction
-		(at 162.56 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b7e77f9-cbaa-444b-b0a3-cb30d451c2e4")
-	)
-	(junction
-		(at 252.73 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "737d9171-7a7b-4fdc-a00f-c6332928dddb")
+		(uuid "005977f1-d9fb-4012-8f62-72e03e51a580")
 	)
 	(junction
 		(at 104.14 130.81)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "880932d6-6626-4055-b482-96e9865804b8")
+		(uuid "04b09c5a-ce91-4d33-b728-16383852e3d6")
+	)
+	(junction
+		(at 135.89 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c2defd-6749-49c0-9ac8-765ebcde9f9b")
 	)
 	(junction
 		(at 158.75 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "90ad99c2-e496-4376-bd60-4474ec89d94b")
-	)
-	(junction
-		(at 246.38 80.01)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9976ffbd-c026-416a-a38f-59196c05211d")
-	)
-	(junction
-		(at 158.75 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a10bb109-da0c-4d6c-a8c2-d182151a7c6d")
+		(uuid "16cf4105-43b5-4acb-b79c-17434b3c9229")
 	)
 	(junction
 		(at 243.84 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "aeb93f2f-e8e5-4221-a077-7f915d3d895c")
+		(uuid "1f159359-bc83-40eb-99ae-d51bc30f962c")
+	)
+	(junction
+		(at 67.31 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21d9b441-ecb2-4d1f-a286-5a3d7765bead")
+	)
+	(junction
+		(at 172.72 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "250c0d3a-0259-40c9-98be-2c8822ef3078")
 	)
 	(junction
 		(at 193.04 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1dd0c2a-3d9c-4948-b3f3-dba8104f0b46")
+		(uuid "26113ffc-3436-4b2a-b1df-b52ecfc3d5c8")
 	)
 	(junction
-		(at 161.29 55.88)
+		(at 199.39 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b78731c9-d50d-42fc-9bcd-41f652c202c0")
-	)
-	(junction
-		(at 130.81 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bb358db9-588c-4cbf-91b1-84dd9023fdc2")
-	)
-	(junction
-		(at 91.44 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c38462db-4fd8-45d5-b4f2-53f0ca37d462")
-	)
-	(junction
-		(at 199.39 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c5ac8123-d69f-454f-a0cb-ddeb1cdb5b11")
-	)
-	(junction
-		(at 104.14 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cb232607-60f7-4569-8716-01a5c7871a58")
-	)
-	(junction
-		(at 252.73 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf3f4354-eca1-4d42-900f-8de477728916")
-	)
-	(junction
-		(at 199.39 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d3fe5ef0-86d8-4f22-a5bb-63c41d045506")
-	)
-	(junction
-		(at 162.56 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d895f5c7-0557-44dd-ae8c-2af25652a1ca")
-	)
-	(junction
-		(at 133.35 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "dfdb63c1-35b4-4154-b2bb-397c3837a88c")
+		(uuid "2898aa2d-1560-4434-ae73-d1b8e4c41f66")
 	)
 	(junction
 		(at 127 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1136fca-ca57-4c34-aa4d-90f713b55da7")
+		(uuid "28a31cf8-a045-4d68-9390-3a9e01d0ae3c")
 	)
 	(junction
-		(at 237.49 49.53)
+		(at 243.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e543a31a-f4db-4c3c-aad0-f7b5869968bb")
-	)
-	(junction
-		(at 114.3 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecbebd82-64bc-47e9-87f6-a6a7f1070c32")
-	)
-	(junction
-		(at 187.96 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f13d3292-34f2-4472-90fc-e70e020b6cd8")
+		(uuid "299198d8-f340-4035-8ec7-3857ae10c640")
 	)
 	(junction
 		(at 158.75 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fa9040e3-9eb8-4549-a702-4789f2d6efd9")
+		(uuid "2fb00331-8aa1-472f-b493-0ed191d08723")
+	)
+	(junction
+		(at 99.06 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "30eceb19-0674-4713-8521-a8d5d8176657")
+	)
+	(junction
+		(at 187.96 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "335ce3ee-82e5-4833-9a19-72506d388569")
+	)
+	(junction
+		(at 114.3 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3cfc4fc1-9c36-4f84-9fd0-44674672479a")
+	)
+	(junction
+		(at 161.29 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4e40c88d-e9ba-4d89-919f-33394a5979e4")
+	)
+	(junction
+		(at 104.14 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52e35442-89a3-4f2e-ba44-6d4a72706dd2")
+	)
+	(junction
+		(at 189.23 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59803f53-a995-4589-81df-d50a62d9dd99")
+	)
+	(junction
+		(at 132.08 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "60352e0e-c2a4-4a48-a06f-ca5ae74b7515")
+	)
+	(junction
+		(at 215.9 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "605896eb-91cd-4b8f-872b-164113e4cecb")
+	)
+	(junction
+		(at 76.2 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6668c813-5047-43c2-b0c1-cf3b8114119a")
+	)
+	(junction
+		(at 25.4 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "677eb94c-e85f-4d87-bbb6-9f0096908b64")
+	)
+	(junction
+		(at 237.49 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "749eeb4b-3d18-46be-90eb-a7bf84dc05b3")
+	)
+	(junction
+		(at 158.75 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "75fe1eff-c9dc-433b-9d54-aed519469a5e")
+	)
+	(junction
+		(at 116.84 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9693fc1d-be93-4f67-a919-67dc61ed4366")
+	)
+	(junction
+		(at 199.39 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "973e410e-bdf1-460d-8aae-85b0cee2903f")
+	)
+	(junction
+		(at 246.38 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99082b67-21ec-4f95-b93c-7d6970a10812")
+	)
+	(junction
+		(at 130.81 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9c7fd834-da3c-4a6f-889c-04ec9bb226fa")
+	)
+	(junction
+		(at 252.73 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a169fef0-24ee-4861-9134-afbc37098196")
+	)
+	(junction
+		(at 162.56 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a6c3e5ed-0234-4858-8863-1d0781da320e")
+	)
+	(junction
+		(at 252.73 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2217a65-c342-492d-982c-d22f3651bb4e")
+	)
+	(junction
+		(at 199.39 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b5f3dcd5-2e61-4e08-b8a4-069fc217194e")
+	)
+	(junction
+		(at 203.2 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cf740172-8ca1-47da-943a-f6decbea4894")
 	)
 	(junction
 		(at 31.75 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fc540dd6-6517-4bc8-a702-3739bf4e9ed3")
-	)
-	(wire
-		(pts
-			(xy 161.29 55.88) (xy 165.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00a70e27-a4b6-4ef2-bf52-596fa418f4e4")
-	)
-	(wire
-		(pts
-			(xy 252.73 80.01) (xy 265.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0141113d-5e9f-4c15-b04f-e74b4a77dd54")
-	)
-	(wire
-		(pts
-			(xy 91.44 80.01) (xy 91.44 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "025ee0ff-ade1-43b6-b311-eb47121de316")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0456c439-c0fc-40ab-ae11-a179be7a2b73")
-	)
-	(wire
-		(pts
-			(xy 19.05 48.26) (xy 19.05 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "052cd47d-9cc8-454c-b637-f0633af1e9f0")
-	)
-	(wire
-		(pts
-			(xy 199.39 137.16) (xy 205.74 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0602ab02-3e96-4929-8b27-25e8075c0013")
-	)
-	(wire
-		(pts
-			(xy 91.44 90.17) (xy 105.41 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "080df0f8-dec1-43f5-8a4c-211e87b14dbf")
-	)
-	(wire
-		(pts
-			(xy 182.88 127) (xy 200.66 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0845e233-82e6-42f4-8c20-7cc0cfdf1154")
-	)
-	(wire
-		(pts
-			(xy 252.73 49.53) (xy 265.43 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088f7196-54bc-4bce-afb4-d15187817b64")
-	)
-	(wire
-		(pts
-			(xy 243.84 49.53) (xy 243.84 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d5259f2-044a-4c98-a1e2-8a435069c933")
-	)
-	(wire
-		(pts
-			(xy 199.39 54.61) (xy 199.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0daa91c3-fd91-42e5-8837-ba4e55ed7eb8")
-	)
-	(wire
-		(pts
-			(xy 104.14 125.73) (xy 116.84 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f066048-54c4-4580-a8e5-9e21f3bf7d45")
-	)
-	(wire
-		(pts
-			(xy 199.39 114.3) (xy 200.66 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f899114-821e-4879-b7aa-fe7d869cfbf5")
-	)
-	(wire
-		(pts
-			(xy 116.84 113.03) (xy 116.84 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1058763b-8729-423e-a61a-c6f6171191ea")
-	)
-	(wire
-		(pts
-			(xy 31.75 49.53) (xy 31.75 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10628c66-e235-481f-a718-cb8f258ffce1")
-	)
-	(wire
-		(pts
-			(xy 114.3 133.35) (xy 116.84 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12811b51-9c0b-4f18-b97a-ccee1dda66c7")
-	)
-	(wire
-		(pts
-			(xy 201.93 54.61) (xy 199.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12cb24d3-129c-4d26-b30e-14689e9dd146")
-	)
-	(wire
-		(pts
-			(xy 105.41 78.74) (xy 107.95 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15b7e1d0-6f5e-4a78-9060-a35d1770bafb")
-	)
-	(wire
-		(pts
-			(xy 252.73 63.5) (xy 252.73 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16596377-30a0-4446-abac-645ca62f723f")
-	)
-	(wire
-		(pts
-			(xy 156.21 60.96) (xy 189.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "240c485e-6574-4530-8829-6aa93a344ad1")
-	)
-	(wire
-		(pts
-			(xy 162.56 78.74) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "244a4a4f-fa74-4435-9630-08bbf5454c82")
-	)
-	(wire
-		(pts
-			(xy 265.43 62.23) (xy 265.43 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27038383-33d6-4eed-a7c8-eec477caa777")
-	)
-	(wire
-		(pts
-			(xy 146.05 110.49) (xy 146.05 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27232d7b-de03-4537-870a-b82173512029")
-	)
-	(wire
-		(pts
-			(xy 177.8 127) (xy 182.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "275d2e9f-eae0-434c-9dd6-3484ed23bb51")
-	)
-	(wire
-		(pts
-			(xy 156.21 55.88) (xy 161.29 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2779e783-4c42-4720-bb5c-dd509d155345")
-	)
-	(wire
-		(pts
-			(xy 199.39 116.84) (xy 199.39 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a56af2d-6144-4795-95a9-04b68d01b305")
-	)
-	(wire
-		(pts
-			(xy 156.21 78.74) (xy 158.75 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a9ace9d-30f1-47e3-a81d-c728a7259825")
-	)
-	(wire
-		(pts
-			(xy 166.37 121.92) (xy 172.72 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d5f2474-09ce-4931-8d8d-7f19f7215792")
-	)
-	(wire
-		(pts
-			(xy 189.23 78.74) (xy 189.23 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33fadab3-c758-458a-bebb-d026c2715e7a")
-	)
-	(wire
-		(pts
-			(xy 189.23 55.88) (xy 189.23 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "346cad28-f3f3-4513-b6fa-71d3bface7c8")
-	)
-	(wire
-		(pts
-			(xy 91.44 72.39) (xy 107.95 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34fab804-4590-459c-a5b6-16465786b7ac")
-	)
-	(wire
-		(pts
-			(xy 246.38 80.01) (xy 246.38 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3542312b-6ece-41e0-bfb1-f5fef071fc78")
-	)
-	(wire
-		(pts
-			(xy 67.31 60.96) (xy 107.95 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "357125ce-6089-49be-8d87-306529dddd24")
-	)
-	(wire
-		(pts
-			(xy 116.84 110.49) (xy 127 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35a8e444-a0c4-48eb-9bdd-48e9c219a575")
-	)
-	(wire
-		(pts
-			(xy 215.9 63.5) (xy 215.9 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "366bea7c-91c3-4684-9c4b-45977ec2844d")
-	)
-	(wire
-		(pts
-			(xy 189.23 60.96) (xy 189.23 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "376ee357-9fa6-4b33-9c92-33e8d706e31c")
-	)
-	(wire
-		(pts
-			(xy 105.41 85.09) (xy 105.41 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3828dd6d-202a-4053-99c6-8677813bc34b")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a0fcb31-0bb8-4b22-98eb-be64bacc578d")
-	)
-	(wire
-		(pts
-			(xy 162.56 83.82) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b0cdc2e-7f54-41d4-a0fe-dc6c50dee1a1")
-	)
-	(wire
-		(pts
-			(xy 99.06 55.88) (xy 107.95 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3cabac3c-7505-43b9-82ab-2855629aea1b")
-	)
-	(wire
-		(pts
-			(xy 203.2 63.5) (xy 215.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce4d9ba-789b-429a-8145-43c87d1f101a")
-	)
-	(wire
-		(pts
-			(xy 265.43 49.53) (xy 276.86 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d4d0a56-1009-477f-9bc7-94f032c96744")
-	)
-	(wire
-		(pts
-			(xy 199.39 66.04) (xy 199.39 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f2c5a51-d04d-4aec-b9a4-335900257af6")
-	)
-	(wire
-		(pts
-			(xy 276.86 49.53) (xy 276.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f740d7c-e78c-4b14-af03-72edb5a0d34a")
-	)
-	(wire
-		(pts
-			(xy 199.39 119.38) (xy 199.39 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ff3f057-0e1a-46fa-861e-d33567d12f8c")
-	)
-	(wire
-		(pts
-			(xy 104.14 149.86) (xy 158.75 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "406ba341-aed7-49d5-8814-a66fdee69433")
-	)
-	(wire
-		(pts
-			(xy 148.59 129.54) (xy 158.75 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430db320-2991-42f5-8b69-002167a6effb")
-	)
-	(wire
-		(pts
-			(xy 200.66 119.38) (xy 199.39 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46c87952-9c53-497d-9415-291250050c21")
-	)
-	(wire
-		(pts
-			(xy 237.49 63.5) (xy 237.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4854b489-e68c-4dae-af18-bec575e10553")
-	)
-	(wire
-		(pts
-			(xy 161.29 49.53) (xy 237.49 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "48bc086d-4534-42bd-aa09-e722fa0e0c47")
-	)
-	(wire
-		(pts
-			(xy 67.31 90.17) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "491fc4dc-d93f-4fc1-92dd-2c085f958a78")
-	)
-	(wire
-		(pts
-			(xy 243.84 49.53) (xy 252.73 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a19261f-f6a1-4b8d-b1a6-2607355c3043")
-	)
-	(wire
-		(pts
-			(xy 99.06 55.88) (xy 99.06 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c484ff1-54f7-4c00-a12a-5b4ade7fc337")
-	)
-	(wire
-		(pts
-			(xy 162.56 90.17) (xy 189.23 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "501a312f-7d69-46e0-87c8-36bb5799346c")
-	)
-	(wire
-		(pts
-			(xy 104.14 110.49) (xy 116.84 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53d7727a-58f9-4ee5-bf89-c3737649dd18")
-	)
-	(wire
-		(pts
-			(xy 243.84 80.01) (xy 246.38 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54ecf1c5-e63b-4a1d-8dc2-29f0bcf9541f")
-	)
-	(wire
-		(pts
-			(xy 172.72 149.86) (xy 172.72 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5544b6f3-3afb-4d00-8fa6-51297a36e0c5")
-	)
-	(wire
-		(pts
-			(xy 19.05 81.28) (xy 19.05 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e2330c4-8f61-4f33-b232-1315b5d77548")
-	)
-	(wire
-		(pts
-			(xy 105.41 80.01) (xy 105.41 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5eb0902e-2241-4061-8c18-4c69d793b9db")
-	)
-	(wire
-		(pts
-			(xy 104.14 119.38) (xy 104.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff6816c-cca2-45d0-8a13-55d5065da13a")
-	)
-	(wire
-		(pts
-			(xy 116.84 118.11) (xy 116.84 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60649df9-81bb-4c2d-a8e1-f6beddd5962b")
-	)
-	(wire
-		(pts
-			(xy 104.14 144.78) (xy 104.14 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "616fd986-4b96-4495-82b9-ba11da0815d8")
-	)
-	(wire
-		(pts
-			(xy 177.8 121.92) (xy 193.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "695a805c-3673-4141-8029-0fa2a29f230e")
-	)
-	(wire
-		(pts
-			(xy 158.75 149.86) (xy 172.72 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "696f6aab-8218-4ad2-892b-e3e5511c23b4")
-	)
-	(wire
-		(pts
-			(xy 199.39 124.46) (xy 199.39 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6afda9cb-409d-482c-b137-f180cefd33d9")
-	)
-	(wire
-		(pts
-			(xy 67.31 74.93) (xy 67.31 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bed4ddb-01e5-4c3e-8c68-82a9066e0211")
-	)
-	(wire
-		(pts
-			(xy 187.96 109.22) (xy 187.96 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70cfdd56-a578-4938-a9ee-498003b65ec6")
-	)
-	(wire
-		(pts
-			(xy 67.31 55.88) (xy 67.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f73889-c0c8-421b-b6cc-ab4fd38dfafa")
-	)
-	(wire
-		(pts
-			(xy 95.25 125.73) (xy 104.14 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7259fe4a-555c-4ca8-969a-487bc00d61b3")
-	)
-	(wire
-		(pts
-			(xy 135.89 110.49) (xy 135.89 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "738b3160-0cc3-4cab-9bf0-bffc0d3ca716")
-	)
-	(wire
-		(pts
-			(xy 132.08 147.32) (xy 132.08 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76e50742-4918-454c-b160-23aa64d20e7d")
-	)
-	(wire
-		(pts
-			(xy 99.06 49.53) (xy 31.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79216b92-83a6-4c60-9551-a78dd3d6c5db")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 200.66 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79efc246-e6b6-4ab1-99d8-4db153a056f0")
-	)
-	(wire
-		(pts
-			(xy 133.35 110.49) (xy 135.89 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bfdcb77-66a6-42e3-afa2-256cc25aafdf")
-	)
-	(wire
-		(pts
-			(xy 76.2 66.04) (xy 107.95 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d419617-ea8e-483a-8fa1-7ef327ebeded")
-	)
-	(wire
-		(pts
-			(xy 158.75 90.17) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803aee51-1aa6-42ed-9700-d5a7cea8ab19")
-	)
-	(wire
-		(pts
-			(xy 199.39 114.3) (xy 199.39 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "810fe6c1-1624-4718-a51b-353da462a02b")
-	)
-	(wire
-		(pts
-			(xy 161.29 55.88) (xy 161.29 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82a94de6-80a2-4ad1-af5a-423e10ca7957")
-	)
-	(wire
-		(pts
-			(xy 199.39 124.46) (xy 200.66 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86cee4d9-4c52-46aa-88f4-35e9e102efab")
-	)
-	(wire
-		(pts
-			(xy 193.04 121.92) (xy 200.66 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88a8ad97-c49a-452e-87ad-59e5588452f0")
-	)
-	(wire
-		(pts
-			(xy 95.25 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a1ca459-0f05-4012-aca0-e54d7399001c")
-	)
-	(wire
-		(pts
-			(xy 158.75 78.74) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b1431ea-f41e-4345-b040-2505cfadf75d")
-	)
-	(wire
-		(pts
-			(xy 95.25 130.81) (xy 104.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b600d6f-279e-431e-ac1c-1916d4887c75")
-	)
-	(wire
-		(pts
-			(xy 162.56 72.39) (xy 166.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d18e31b-dac7-4b89-9f1f-ae61e1e078a3")
-	)
-	(wire
-		(pts
-			(xy 67.31 60.96) (xy 67.31 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91151295-c5b4-492a-bba2-66f6c4853491")
-	)
-	(wire
-		(pts
-			(xy 243.84 62.23) (xy 243.84 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9336cb4b-cc57-421d-90c0-80d34ae154e2")
-	)
-	(wire
-		(pts
-			(xy 187.96 110.49) (xy 193.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "937dd81b-06bb-4646-a81c-8641e63cbc7a")
-	)
-	(wire
-		(pts
-			(xy 215.9 90.17) (xy 215.9 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938ac14f-ad67-4a63-8751-5c91539b67e6")
-	)
-	(wire
-		(pts
-			(xy 166.37 127) (xy 172.72 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9436ff82-afe9-4418-9602-192844085db6")
-	)
-	(wire
-		(pts
-			(xy 31.75 71.12) (xy 31.75 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9566aac6-ac5b-4b2f-85f5-8260ccc8fe82")
-	)
-	(wire
-		(pts
-			(xy 200.66 116.84) (xy 199.39 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9693f5e6-48d5-4334-ae24-30f99086ac69")
-	)
-	(wire
-		(pts
-			(xy 182.88 118.11) (xy 182.88 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9707dc54-60c1-4242-be48-0394e02f8da7")
-	)
-	(wire
-		(pts
-			(xy 135.89 110.49) (xy 146.05 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97d8251f-8336-4ee7-8bb2-2aab71c71d4e")
-	)
-	(wire
-		(pts
-			(xy 246.38 80.01) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a938e41-ea93-48c2-8d7f-a3a5781cffe0")
-	)
-	(wire
-		(pts
-			(xy 146.05 118.11) (xy 146.05 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ac84306-613b-4cbb-9daf-153b5269e8f2")
-	)
-	(wire
-		(pts
-			(xy 148.59 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bf4009b-9b36-4bf7-8552-388e51a6ab2a")
-	)
-	(wire
-		(pts
-			(xy 25.4 81.28) (xy 19.05 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c18dec9-91cf-42e3-b80f-a62f4816918f")
+		(uuid "e59980a7-4921-4b2a-9559-ac70cf56d2b2")
+	)
+	(junction
+		(at 91.44 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e81c61df-3cd2-4ff0-9653-7f9a093e8df1")
+	)
+	(junction
+		(at 105.41 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec5b8f9c-71f5-4148-a126-ed0246ef08cb")
+	)
+	(junction
+		(at 162.56 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0939036-aab0-49ac-acbb-ef797d61286e")
+	)
+	(junction
+		(at 265.43 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f5befd48-e4db-4765-912d-97d045255b7c")
+	)
+	(junction
+		(at 182.88 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f955df68-e4ad-450c-b60c-bfe1035c8337")
+	)
+	(junction
+		(at 19.05 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fda3f952-35db-41c7-8fb8-76cb24565e61")
 	)
 	(wire
 		(pts
@@ -4323,507 +3323,17 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "9e145468-ddca-4179-936e-a173742da07c")
+		(uuid "0378b2c6-0ee4-4c0f-bc46-24fafb7eae46")
 	)
 	(wire
 		(pts
-			(xy 237.49 80.01) (xy 243.84 80.01)
+			(xy 104.14 110.49) (xy 116.84 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a501d230-3a1f-4d4c-b007-f72c36e8d8e5")
-	)
-	(wire
-		(pts
-			(xy 171.45 72.39) (xy 173.99 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6b63d01-3019-4ed6-8f0c-2a8d0d3c1132")
-	)
-	(wire
-		(pts
-			(xy 72.39 55.88) (xy 67.31 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7e4b17e-e922-47f0-b97e-439d2ce332cd")
-	)
-	(wire
-		(pts
-			(xy 170.18 55.88) (xy 189.23 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a88733c0-2d6b-441a-8aa1-3741291be593")
-	)
-	(wire
-		(pts
-			(xy 193.04 113.03) (xy 193.04 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a894fcea-a821-4294-b483-47bb009982e2")
-	)
-	(wire
-		(pts
-			(xy 215.9 78.74) (xy 215.9 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa570266-00f6-4618-9df3-e84f8a53052e")
-	)
-	(wire
-		(pts
-			(xy 203.2 72.39) (xy 203.2 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae5400e6-3139-4fd9-a3e7-b2392bf665ea")
-	)
-	(wire
-		(pts
-			(xy 91.44 85.09) (xy 91.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af485153-6cd6-4ab8-b09a-bd557f5f5346")
-	)
-	(wire
-		(pts
-			(xy 158.75 146.05) (xy 158.75 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b09d49a3-b23c-473d-bb46-8e7092c57088")
-	)
-	(wire
-		(pts
-			(xy 187.96 110.49) (xy 182.88 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5dd2cb5-52ee-4b7f-91e2-1eb15468eb20")
-	)
-	(wire
-		(pts
-			(xy 158.75 138.43) (xy 158.75 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba25613d-a3a3-4c38-8e38-981731e011e7")
-	)
-	(wire
-		(pts
-			(xy 148.59 132.08) (xy 148.59 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "baaa8738-1073-419b-afbe-0ae37da8a931")
-	)
-	(wire
-		(pts
-			(xy 265.43 49.53) (xy 265.43 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad21ea7-61fc-4d96-9b46-f0c4da2bd893")
-	)
-	(wire
-		(pts
-			(xy 76.2 90.17) (xy 91.44 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bbbc14bc-f1d3-427f-a338-28d9d3b1c2cb")
-	)
-	(wire
-		(pts
-			(xy 53.34 60.96) (xy 55.88 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc71f29a-1700-482b-8efc-572cbb7b6946")
-	)
-	(wire
-		(pts
-			(xy 76.2 69.85) (xy 76.2 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc7a8a5e-957b-4bcb-be1b-9ca4731df6e2")
-	)
-	(wire
-		(pts
-			(xy 76.2 74.93) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdf6c0f3-5aa9-4a88-90c6-59eee96e361a")
-	)
-	(wire
-		(pts
-			(xy 104.14 130.81) (xy 104.14 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be300244-5b11-434b-9f7e-2c7ff24d73e5")
-	)
-	(wire
-		(pts
-			(xy 199.39 62.23) (xy 199.39 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea7f2d4-bab4-4711-a76d-b4872fc9bd04")
-	)
-	(wire
-		(pts
-			(xy 199.39 85.09) (xy 203.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf0ab785-3f7f-4f2a-ae79-ac793ad97e34")
-	)
-	(wire
-		(pts
-			(xy 130.81 110.49) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c01a7605-9f73-4861-af07-c333dcb43a5c")
-	)
-	(wire
-		(pts
-			(xy 172.72 132.08) (xy 172.72 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c097ed8b-a1c4-44f5-b7ff-2919c5d65f7b")
-	)
-	(wire
-		(pts
-			(xy 105.41 90.17) (xy 158.75 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c29eb94d-150e-46e5-b7db-c7f704a56e40")
-	)
-	(wire
-		(pts
-			(xy 237.49 71.12) (xy 237.49 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4ad5b29-10a9-48e7-98bf-bcfde9cf6d9b")
-	)
-	(wire
-		(pts
-			(xy 252.73 71.12) (xy 252.73 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c52d3f26-8a6c-4572-9a9f-cc33d3ab6fe0")
-	)
-	(wire
-		(pts
-			(xy 31.75 81.28) (xy 25.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6ba1215-8960-4821-8fc7-c049ce83ccbd")
-	)
-	(wire
-		(pts
-			(xy 130.81 114.3) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6c0cabc-3650-4fea-b562-26070928f517")
-	)
-	(wire
-		(pts
-			(xy 116.84 129.54) (xy 114.3 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6de1d93-be3a-41b1-b65f-5af60ceffe90")
-	)
-	(wire
-		(pts
-			(xy 19.05 49.53) (xy 31.75 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b1cbc7-26f6-41ed-9b09-712a9079154b")
-	)
-	(wire
-		(pts
-			(xy 162.56 72.39) (xy 156.21 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c940e0cf-0bde-46d6-8d88-1b3cb5971513")
-	)
-	(wire
-		(pts
-			(xy 215.9 62.23) (xy 215.9 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c98803fc-fb5d-4761-a657-6ee04fbb505f")
-	)
-	(wire
-		(pts
-			(xy 156.21 66.04) (xy 199.39 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cace352d-487f-40f0-bf36-d01be35ed179")
-	)
-	(wire
-		(pts
-			(xy 237.49 49.53) (xy 243.84 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd861148-6fdc-441d-be53-9063071aa340")
-	)
-	(wire
-		(pts
-			(xy 60.96 60.96) (xy 67.31 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce7702bc-4f2b-4c61-af2c-1d611fd04181")
-	)
-	(wire
-		(pts
-			(xy 199.39 110.49) (xy 276.86 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d0db084f-fa03-4f51-9e5e-679256c354f9")
-	)
-	(wire
-		(pts
-			(xy 193.04 118.11) (xy 193.04 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2892ed0-1eed-4a08-bd7e-105e21ec56c8")
-	)
-	(wire
-		(pts
-			(xy 114.3 130.81) (xy 114.3 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4630836-6ac0-4ef8-bfc4-a3c3df8dfcf5")
-	)
-	(wire
-		(pts
-			(xy 203.2 85.09) (xy 208.28 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa53bd8-9450-4176-88b9-e5f09f65f446")
-	)
-	(wire
-		(pts
-			(xy 203.2 77.47) (xy 203.2 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbbcec84-f18f-436b-9979-049031127fb8")
-	)
-	(wire
-		(pts
-			(xy 158.75 90.17) (xy 158.75 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf222a4-bb14-46c5-b94e-a760f8b6af29")
-	)
-	(wire
-		(pts
-			(xy 104.14 130.81) (xy 114.3 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df2b6572-bb1e-4c4f-999e-d6749179a00c")
-	)
-	(wire
-		(pts
-			(xy 215.9 69.85) (xy 215.9 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "df9b3b2e-c07c-4236-b1da-cc423385b586")
-	)
-	(wire
-		(pts
-			(xy 133.35 109.22) (xy 133.35 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1ebf01f-918f-443c-9df6-3f7a73b0adf3")
-	)
-	(wire
-		(pts
-			(xy 199.39 138.43) (xy 199.39 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3074998-d70e-4b4e-a470-e0e67f620689")
-	)
-	(wire
-		(pts
-			(xy 148.59 132.08) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e36c20da-9ab3-418c-8c0d-4d305963e087")
-	)
-	(wire
-		(pts
-			(xy 104.14 114.3) (xy 104.14 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e38ab9d9-3066-4ba8-bc2a-60db96c2f144")
-	)
-	(wire
-		(pts
-			(xy 148.59 133.35) (xy 146.05 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4236294-3978-45f3-87f4-c340b1e39cf6")
-	)
-	(wire
-		(pts
-			(xy 77.47 55.88) (xy 99.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb28664a-321e-4696-96db-87ad6e068a92")
-	)
-	(wire
-		(pts
-			(xy 158.75 129.54) (xy 200.66 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed669680-8069-4854-9f25-c67fdcb71ff4")
-	)
-	(wire
-		(pts
-			(xy 19.05 66.04) (xy 19.05 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee6ee638-5b62-4451-982d-7857e659d82a")
+		(uuid "04b5e8e9-8087-41bf-8869-e20b5395a037")
 	)
 	(wire
 		(pts
@@ -4833,7 +3343,167 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "f5b88ced-9bd0-495e-8a3f-b6ca89e9446d")
+		(uuid "066233b8-be14-4fb9-bec8-2cca97211bc8")
+	)
+	(wire
+		(pts
+			(xy 148.59 133.35) (xy 146.05 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "084a25c1-deb8-4d09-9c4d-1c1201118146")
+	)
+	(wire
+		(pts
+			(xy 19.05 48.26) (xy 19.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a50aff1-e731-459c-86c9-16473b88112c")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 158.75 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ac4bb3a-e856-4025-8946-0a2cd4de2abf")
+	)
+	(wire
+		(pts
+			(xy 199.39 116.84) (xy 199.39 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b887fa1-12d8-48a4-bf4d-0680aad637ee")
+	)
+	(wire
+		(pts
+			(xy 130.81 110.49) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bbdf017-3971-4464-a5b3-64bd859b1082")
+	)
+	(wire
+		(pts
+			(xy 182.88 127) (xy 200.66 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cb344f0-0968-4f6d-be0b-221d6c46384f")
+	)
+	(wire
+		(pts
+			(xy 187.96 110.49) (xy 182.88 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1317737f-819d-41fc-97a3-88df5f92a53d")
+	)
+	(wire
+		(pts
+			(xy 67.31 90.17) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "158124f5-e475-4a56-a952-d3891f2ff9f9")
+	)
+	(wire
+		(pts
+			(xy 133.35 109.22) (xy 133.35 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bd744b1-d909-4bf9-8d5b-2a4645771370")
+	)
+	(wire
+		(pts
+			(xy 105.41 85.09) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d35de79-fa07-4372-b077-9082f4baaffb")
+	)
+	(wire
+		(pts
+			(xy 265.43 49.53) (xy 265.43 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1736ec-cb74-4740-945d-a2789f9dc9a6")
+	)
+	(wire
+		(pts
+			(xy 265.43 62.23) (xy 265.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1eeb8286-483d-4cfd-9595-de7dee1a5b45")
+	)
+	(wire
+		(pts
+			(xy 237.49 80.01) (xy 243.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fd95018-c5d7-4501-a1ee-d7c5bb17ca3d")
+	)
+	(wire
+		(pts
+			(xy 193.04 113.03) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20960a0d-b39e-42d1-974c-b2eb6ca864d1")
+	)
+	(wire
+		(pts
+			(xy 201.93 54.61) (xy 199.39 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e9db08-2649-4be9-b4f5-65cc258939a8")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 200.66 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "249c65fd-f1a6-4c97-b192-c367f8be0285")
 	)
 	(wire
 		(pts
@@ -4843,30 +3513,1319 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "fe2c3aae-745a-466c-a542-3f2a60b07a22")
+		(uuid "25b75b02-fb19-4071-85f5-90b65cbf81ab")
 	)
-	(label "ACC1_+12V"
-		(at 223.52 110.49 0)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2755b1de-b3bf-4107-8f71-0930d17baf70")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 31.75 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29d073bc-8605-4e45-b6e4-e827c04a4633")
+	)
+	(wire
+		(pts
+			(xy 246.38 80.01) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4e8350-b18b-4faa-a8a8-674dfa9b6246")
+	)
+	(wire
+		(pts
+			(xy 116.84 113.03) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b6042b8-7def-4ea5-a1df-b7dffd8626ef")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 99.06 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d02d122-3aba-4632-b8df-10757a67a9ac")
+	)
+	(wire
+		(pts
+			(xy 105.41 90.17) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d67f016-7e65-4cc5-99ec-041b1ed8f7c9")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 199.39 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307c05eb-c2f6-4ba3-8c63-9290167fd665")
+	)
+	(wire
+		(pts
+			(xy 104.14 114.3) (xy 104.14 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30af0ee4-7388-42c6-be2e-d577169d31fa")
+	)
+	(wire
+		(pts
+			(xy 99.06 49.53) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "319aa455-f20d-42d8-9ed1-481131561bf7")
+	)
+	(wire
+		(pts
+			(xy 31.75 71.12) (xy 31.75 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34ec6fbd-fc82-4f97-a8f0-7abf4c805229")
+	)
+	(wire
+		(pts
+			(xy 76.2 69.85) (xy 76.2 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "363aa116-51ff-47ea-b1c2-9765d95a4a30")
+	)
+	(wire
+		(pts
+			(xy 76.2 74.93) (xy 76.2 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36504800-feb6-4d5f-82d8-52b660e5e24e")
+	)
+	(wire
+		(pts
+			(xy 187.96 110.49) (xy 193.04 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36f974c3-77c7-49f9-bc56-e3c74a96eb7e")
+	)
+	(wire
+		(pts
+			(xy 203.2 72.39) (xy 203.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3743e2ba-ba7f-4934-a3ac-d56ccce0fed5")
+	)
+	(wire
+		(pts
+			(xy 104.14 144.78) (xy 104.14 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37da9aa8-e9c1-42a7-b1fc-5b7aac136ea6")
+	)
+	(wire
+		(pts
+			(xy 158.75 78.74) (xy 158.75 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37de9b4c-2bc9-45e0-8917-822593e8b13f")
+	)
+	(wire
+		(pts
+			(xy 146.05 118.11) (xy 146.05 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41edfef9-c20d-4cdf-9867-94012238fe4b")
+	)
+	(wire
+		(pts
+			(xy 130.81 114.3) (xy 130.81 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43a5fa75-6fa1-419a-9da2-0d82ddeeff08")
+	)
+	(wire
+		(pts
+			(xy 243.84 62.23) (xy 243.84 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "453c9b62-58f3-437a-ad10-b23f63603b7b")
+	)
+	(wire
+		(pts
+			(xy 148.59 132.08) (xy 148.59 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4672c084-7902-4b9a-889e-036222bc6a7f")
+	)
+	(wire
+		(pts
+			(xy 132.08 151.13) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47efe4f8-ae7d-48ba-a9dc-00b27d30ebc3")
+	)
+	(wire
+		(pts
+			(xy 114.3 133.35) (xy 116.84 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48406380-3db4-460a-b1ea-10a01db2776e")
+	)
+	(wire
+		(pts
+			(xy 203.2 85.09) (xy 208.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48a38652-c9a3-40f9-a3d5-d6ee553b5a7a")
+	)
+	(wire
+		(pts
+			(xy 200.66 116.84) (xy 199.39 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b1c5efb-92c3-4640-820d-f0c9cb6ccb28")
+	)
+	(wire
+		(pts
+			(xy 237.49 49.53) (xy 243.84 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bcca6f8-7e0e-4d00-ba9d-b496e189334f")
+	)
+	(wire
+		(pts
+			(xy 116.84 110.49) (xy 127 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f6996a3-bf16-4df8-8ecb-a5567fb8198b")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 104.14 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53254ae2-1623-40ff-b40e-921c341f2a96")
+	)
+	(wire
+		(pts
+			(xy 19.05 66.04) (xy 19.05 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53ea6bb2-cf5f-4282-9d3e-35fa8b07e0e8")
+	)
+	(wire
+		(pts
+			(xy 203.2 63.5) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d25366-a02d-42a7-b7d9-48a8dafe7079")
+	)
+	(wire
+		(pts
+			(xy 199.39 66.04) (xy 199.39 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bc38efc-2c86-4439-87fb-bd8277d1c861")
+	)
+	(wire
+		(pts
+			(xy 193.04 118.11) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cc0e4fa-3220-47e8-b96a-2959423fb9ba")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 199.39 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ce63a4e-ae93-4556-9e29-f3c5de552cb8")
+	)
+	(wire
+		(pts
+			(xy 166.37 127) (xy 172.72 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5cf6d790-6fa0-4dd1-989c-c26cc538c545")
+	)
+	(wire
+		(pts
+			(xy 252.73 80.01) (xy 265.43 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5dea192c-5989-4daf-a532-b88538b1fbfa")
+	)
+	(wire
+		(pts
+			(xy 158.75 129.54) (xy 200.66 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e8f3f72-5e27-4ab9-b084-62bb09dd1b42")
+	)
+	(wire
+		(pts
+			(xy 77.47 55.88) (xy 99.06 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e1bf98-2f41-4690-a1c6-787e65ec18f1")
+	)
+	(wire
+		(pts
+			(xy 199.39 85.09) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613524ab-7914-4ffa-9e90-cedac4810e53")
+	)
+	(wire
+		(pts
+			(xy 76.2 66.04) (xy 107.95 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6454a66e-9761-4f75-83a9-779e1801a688")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 161.29 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6790625a-f8d3-4eea-b8df-c213a02d76d8")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 67.31 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6baab799-b10a-4dae-921b-15f597b0dbf5")
+	)
+	(wire
+		(pts
+			(xy 243.84 80.01) (xy 246.38 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6bed25e9-b722-4140-91cc-b76fbce0dbc4")
+	)
+	(wire
+		(pts
+			(xy 276.86 49.53) (xy 276.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7493450e-cf5b-4605-b15a-7972e7ad0f5b")
+	)
+	(wire
+		(pts
+			(xy 215.9 78.74) (xy 215.9 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775988dd-c94c-4a7d-9819-531a3bd66247")
+	)
+	(wire
+		(pts
+			(xy 177.8 121.92) (xy 193.04 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77c0565a-0337-4435-8d61-5ef2371c901f")
+	)
+	(wire
+		(pts
+			(xy 172.72 132.08) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e4cf6d-656b-4f7e-9c5a-ffad5f23649f")
+	)
+	(wire
+		(pts
+			(xy 158.75 149.86) (xy 172.72 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784fd017-20c4-4bc7-b003-057576df6f3b")
+	)
+	(wire
+		(pts
+			(xy 162.56 90.17) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf37c4a-1614-4bd0-b8ed-d09962a325da")
+	)
+	(wire
+		(pts
+			(xy 171.45 72.39) (xy 173.99 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fb74cea-c9df-4628-b428-b4a1cf2fa9d8")
+	)
+	(wire
+		(pts
+			(xy 67.31 55.88) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83ba4f15-6f77-44c1-9d9f-c9c9292bca42")
+	)
+	(wire
+		(pts
+			(xy 243.84 49.53) (xy 243.84 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84399843-6a2a-46ca-8ab4-f453fc98d2cf")
+	)
+	(wire
+		(pts
+			(xy 91.44 72.39) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8449dbbd-b901-40c4-bf1e-24b90d930939")
+	)
+	(wire
+		(pts
+			(xy 156.21 66.04) (xy 199.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8657f4c3-85c9-48d1-910a-930b8f77fe0b")
+	)
+	(wire
+		(pts
+			(xy 158.75 146.05) (xy 158.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86aa7012-ba30-426d-ac69-6f76e992b748")
+	)
+	(wire
+		(pts
+			(xy 156.21 60.96) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89a77a68-ad34-45f1-a8b6-b96412ac0bef")
+	)
+	(wire
+		(pts
+			(xy 199.39 62.23) (xy 199.39 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89efc119-79c3-4bcb-a70a-a554ffb4337f")
+	)
+	(wire
+		(pts
+			(xy 116.84 118.11) (xy 116.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b7c1f21-ee5f-48c6-82c7-e942a247906f")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 156.21 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "901b810b-85db-4632-bb23-91cd06924f66")
+	)
+	(wire
+		(pts
+			(xy 91.44 85.09) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9076beaa-e5ec-4fce-833a-93174a36c011")
+	)
+	(wire
+		(pts
+			(xy 199.39 114.3) (xy 200.66 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959fdcce-d4a7-4c31-915d-90e9c386a7bb")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95c22520-e3f1-413b-897f-35141d90a5d0")
+	)
+	(wire
+		(pts
+			(xy 91.44 90.17) (xy 105.41 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9609aa34-878e-42e5-8493-5891566a1c05")
+	)
+	(wire
+		(pts
+			(xy 166.37 121.92) (xy 172.72 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "965f04b5-97cb-4212-9d8e-0356ed9f4d81")
+	)
+	(wire
+		(pts
+			(xy 189.23 78.74) (xy 189.23 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96aeb92d-7833-44d0-80b4-5baaf62e74b7")
+	)
+	(wire
+		(pts
+			(xy 72.39 55.88) (xy 67.31 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9788e550-0fff-4546-bf64-ce032195943d")
+	)
+	(wire
+		(pts
+			(xy 104.14 149.86) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97daaa4c-71bc-41e2-8209-73bb5c2ddd4a")
+	)
+	(wire
+		(pts
+			(xy 199.39 124.46) (xy 200.66 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9820e506-7331-4132-bfb0-4f1872ef296d")
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 55.88 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98bd3ec4-6b57-4e58-89fe-44361aa0ec9b")
+	)
+	(wire
+		(pts
+			(xy 215.9 69.85) (xy 215.9 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "98d22991-f66b-4541-8066-7b290c4d1eec")
+	)
+	(wire
+		(pts
+			(xy 189.23 60.96) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d982641-e902-458e-9932-66631cedecad")
+	)
+	(wire
+		(pts
+			(xy 187.96 109.22) (xy 187.96 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dff363d-d043-4bdf-9a0c-44e1cc9d9836")
+	)
+	(wire
+		(pts
+			(xy 203.2 77.47) (xy 203.2 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eb3a3ae-cb4c-482b-a5cf-f77cd21dfa3e")
+	)
+	(wire
+		(pts
+			(xy 158.75 90.17) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f863d99-8f0f-43ab-b1f4-2246d4877d2a")
+	)
+	(wire
+		(pts
+			(xy 67.31 74.93) (xy 67.31 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe0b70f-c960-457c-9ba9-021b4ff63d3d")
+	)
+	(wire
+		(pts
+			(xy 67.31 60.96) (xy 107.95 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a453b49f-1660-483f-a590-3d10fb833508")
+	)
+	(wire
+		(pts
+			(xy 105.41 78.74) (xy 107.95 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5e26d68-0de0-4cf4-8ff5-caf708875312")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 215.9 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6653cb3-0855-4f85-a3d6-f85f432cba55")
+	)
+	(wire
+		(pts
+			(xy 19.05 49.53) (xy 31.75 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a95e3512-1d8e-483f-a874-ff7acdd86a71")
+	)
+	(wire
+		(pts
+			(xy 200.66 119.38) (xy 199.39 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ab2b781c-c91b-421b-a4e9-c0b5130d541a")
+	)
+	(wire
+		(pts
+			(xy 156.21 55.88) (xy 161.29 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adadb045-38c3-410e-bf32-b20def37dd02")
+	)
+	(wire
+		(pts
+			(xy 158.75 138.43) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adf0b8e5-4995-4196-9fbc-7823bef490c3")
+	)
+	(wire
+		(pts
+			(xy 199.39 54.61) (xy 199.39 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "afcdbb1c-2424-4101-9c3c-637118b5f16e")
+	)
+	(wire
+		(pts
+			(xy 193.04 121.92) (xy 200.66 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b06d468b-56a3-4a49-97bd-85090562ca82")
+	)
+	(wire
+		(pts
+			(xy 252.73 49.53) (xy 265.43 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0a9943c-6fba-429f-8b2c-94ee2a3316c0")
+	)
+	(wire
+		(pts
+			(xy 60.96 60.96) (xy 67.31 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1893ded-24de-40df-8244-61f6d316f5f5")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1b3e0f6-5f3f-41e1-83da-f04dd75a202e")
+	)
+	(wire
+		(pts
+			(xy 148.59 132.08) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b33335e9-0970-478c-ad7c-a1f39f9beb98")
+	)
+	(wire
+		(pts
+			(xy 243.84 49.53) (xy 252.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b43537aa-b0da-44e7-9a31-be153f9c5e69")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 135.89 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a0d1fb-ab63-460c-9c7d-1f4f346daa3a")
+	)
+	(wire
+		(pts
+			(xy 135.89 110.49) (xy 146.05 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b760aef1-1448-4c6a-a7bd-c0e66ca2c58b")
+	)
+	(wire
+		(pts
+			(xy 148.59 128.27) (xy 146.05 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b854eb7d-2f67-4f86-89bb-ec83d5d151af")
+	)
+	(wire
+		(pts
+			(xy 252.73 63.5) (xy 252.73 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b856cddf-1ecd-4fa7-9dea-7265bb249887")
+	)
+	(wire
+		(pts
+			(xy 95.25 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9835794-3ce3-47b4-9e55-7133e566fffc")
+	)
+	(wire
+		(pts
+			(xy 127 110.49) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb161bc1-e822-4dc9-b4da-9c118c8d0feb")
+	)
+	(wire
+		(pts
+			(xy 252.73 71.12) (xy 252.73 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc3290a4-b0a7-45fb-8f87-a305d764eb01")
+	)
+	(wire
+		(pts
+			(xy 19.05 81.28) (xy 19.05 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc5b9ccd-3521-4eaf-9218-192798e4380b")
+	)
+	(wire
+		(pts
+			(xy 172.72 149.86) (xy 172.72 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcfcd539-973a-417a-a0dc-f798f29f361e")
+	)
+	(wire
+		(pts
+			(xy 76.2 90.17) (xy 91.44 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf1562c3-d7cc-4c40-932a-1102b354767e")
+	)
+	(wire
+		(pts
+			(xy 91.44 80.01) (xy 91.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0064135-84a6-4611-b2fb-a0bf03c3c369")
+	)
+	(wire
+		(pts
+			(xy 177.8 127) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1ee27c9-acc2-49fb-8865-8042135a3150")
+	)
+	(wire
+		(pts
+			(xy 132.08 147.32) (xy 132.08 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c2dcf1-eeb1-4a02-81c0-9d3d22449e2f")
+	)
+	(wire
+		(pts
+			(xy 215.9 90.17) (xy 215.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c34504fd-4a21-4b77-9863-13aae3061e99")
+	)
+	(wire
+		(pts
+			(xy 246.38 80.01) (xy 246.38 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4278433-7afd-4afd-b7af-13578dae8f24")
+	)
+	(wire
+		(pts
+			(xy 237.49 63.5) (xy 237.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7549b3c-8682-45e8-a660-634866aafd58")
+	)
+	(wire
+		(pts
+			(xy 146.05 110.49) (xy 146.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca6fb92a-0fe8-4c21-a723-d9b7f4237cac")
+	)
+	(wire
+		(pts
+			(xy 104.14 130.81) (xy 114.3 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccf9404d-6914-4067-bc16-211a4391b198")
+	)
+	(wire
+		(pts
+			(xy 162.56 78.74) (xy 162.56 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf8ae835-36c8-454a-96db-f7c8c7510517")
+	)
+	(wire
+		(pts
+			(xy 189.23 55.88) (xy 189.23 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d004b954-34b4-4ffd-9716-0796cad85397")
+	)
+	(wire
+		(pts
+			(xy 182.88 118.11) (xy 182.88 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ac4f9b-ed48-46a6-9f91-5adc1a6868b0")
+	)
+	(wire
+		(pts
+			(xy 199.39 106.68) (xy 276.86 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2cdcd65-e39c-4227-a08f-b67e35549cc5")
+	)
+	(wire
+		(pts
+			(xy 95.25 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f703d1-f142-4f51-b7e3-398523d0c324")
+	)
+	(wire
+		(pts
+			(xy 31.75 81.28) (xy 25.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d47fe310-c73a-49dd-b434-3ab76998777b")
+	)
+	(wire
+		(pts
+			(xy 99.06 55.88) (xy 107.95 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8674a53-8736-44ff-a5a2-0e734ece58ce")
+	)
+	(wire
+		(pts
+			(xy 114.3 130.81) (xy 114.3 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db8ddb3a-20b4-43b2-bd5a-88bd3b57dcce")
+	)
+	(wire
+		(pts
+			(xy 237.49 71.12) (xy 237.49 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc86ed79-df40-461c-b745-87546136c7c4")
+	)
+	(wire
+		(pts
+			(xy 156.21 78.74) (xy 158.75 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd66b903-c12f-4cea-bc92-c2b3994efb0c")
+	)
+	(wire
+		(pts
+			(xy 162.56 72.39) (xy 166.37 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1d54a8b-7eb0-43e1-ac47-7af6f20e964e")
+	)
+	(wire
+		(pts
+			(xy 95.25 130.81) (xy 104.14 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4044faf-f830-4cea-bff0-6b2b2d010d2a")
+	)
+	(wire
+		(pts
+			(xy 104.14 125.73) (xy 116.84 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e40473a6-cc0c-4c74-909a-6046e979b97f")
+	)
+	(wire
+		(pts
+			(xy 133.35 110.49) (xy 135.89 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e58780c4-f90a-4a02-be1c-c9ad40f12cd2")
+	)
+	(wire
+		(pts
+			(xy 132.08 149.86) (xy 158.75 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8d04adc-a694-4df0-8ec8-265eb1f5655f")
+	)
+	(wire
+		(pts
+			(xy 25.4 81.28) (xy 19.05 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb5e954c-9160-4c81-8657-6f28d09ddd3d")
+	)
+	(wire
+		(pts
+			(xy 162.56 83.82) (xy 162.56 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec1f5048-9761-4a4e-a0c3-c7b8d21a53ed")
+	)
+	(wire
+		(pts
+			(xy 199.39 124.46) (xy 199.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efa13209-591e-40fa-96f4-2eb71b8afc53")
+	)
+	(wire
+		(pts
+			(xy 105.41 80.01) (xy 105.41 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f100662f-12d3-4466-8594-999cc817cfb1")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 215.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56109e8-0a5e-4c48-982f-a81680f6d072")
+	)
+	(wire
+		(pts
+			(xy 161.29 49.53) (xy 237.49 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f87cd929-9778-4e50-a89f-9ebc3e138cb7")
+	)
+	(wire
+		(pts
+			(xy 170.18 55.88) (xy 189.23 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2e8145-b7e7-4277-bd78-4955e91513e1")
+	)
+	(wire
+		(pts
+			(xy 116.84 129.54) (xy 114.3 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc9e0c08-1bec-4226-878e-a3f4979aaf41")
+	)
+	(wire
+		(pts
+			(xy 104.14 119.38) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdebd4d4-6331-48dd-9d48-b3c48eaeb299")
+	)
+	(wire
+		(pts
+			(xy 265.43 49.53) (xy 276.86 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe79bcbb-5098-4efb-abf2-f6c5973ea732")
+	)
+	(label "ACC2_+12V"
+		(at 223.52 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8900b1ad-4b40-4eda-9c91-c467fcb59465")
+		(uuid "9a2da2af-6e59-4bad-82ce-f2431070264c")
 	)
-	(hierarchical_label "ACC3_PG"
-		(shape output)
-		(at 201.93 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16a514e5-569f-46da-9f92-61d36e758421")
-	)
-	(hierarchical_label "ACC3_PRESENT"
+	(hierarchical_label "ACC2_PRESENT"
 		(shape output)
 		(at 166.37 121.92 180)
 		(effects
@@ -4875,53 +4834,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1e804d3a-fbd2-4783-9506-60684eb57d6a")
+		(uuid "1fdc40f0-13e6-41dd-8a0d-9b206646c042")
 	)
-	(hierarchical_label "ACC3_TX"
-		(shape input)
-		(at 95.25 137.16 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "20f6f017-baed-4c25-b29f-e3d0089371cf")
-	)
-	(hierarchical_label "ACC3_DIR"
-		(shape output)
-		(at 95.25 130.81 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e6bf643-2a3b-4527-b73e-e46078a7ea1a")
-	)
-	(hierarchical_label "ACC3_PWR_EN"
-		(shape input)
-		(at 53.34 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "73c03e42-430b-487e-9be7-accdc80297bf")
-	)
-	(hierarchical_label "ACC3_IMON"
-		(shape output)
-		(at 173.99 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab93bf9b-38b4-4c84-941b-7e2de29e9c91")
-	)
-	(hierarchical_label "ACC3_RX"
+	(hierarchical_label "ACC2_RX"
 		(shape output)
 		(at 95.25 125.73 180)
 		(effects
@@ -4930,9 +4845,31 @@
 			)
 			(justify right)
 		)
-		(uuid "b186cca3-4e5c-414f-9ee5-1d84859cbfe7")
+		(uuid "39982626-569c-483f-968f-dcd2645f4a6a")
 	)
-	(hierarchical_label "ACC3_PWR_FLG"
+	(hierarchical_label "ACC2_IMON"
+		(shape output)
+		(at 173.99 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5b25deb4-1bca-4097-8c65-3f53ce64df5c")
+	)
+	(hierarchical_label "ACC2_DIR"
+		(shape output)
+		(at 95.25 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "af8bb65c-131f-4f85-9194-6e12b82962a7")
+	)
+	(hierarchical_label "ACC2_PWR_FLG"
 		(shape output)
 		(at 166.37 127 180)
 		(effects
@@ -4941,290 +4878,40 @@
 			)
 			(justify right)
 		)
-		(uuid "f1190e15-e555-436e-9ae3-b11d5f760558")
+		(uuid "bb5d548b-9de1-418f-a83e-caca6effb1b7")
 	)
-	(symbol
-		(lib_id "Library:TPS259472LRPWR")
-		(at 107.95 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "037b73c5-6f88-43a9-9892-afde0ea59d2d")
-		(property "Reference" "U22"
-			(at 132.334 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(hierarchical_label "ACC2_PG"
+		(shape output)
+		(at 201.93 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left)
 		)
-		(property "Value" "TPS259472LRPWR"
-			(at 132.334 82.804 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:TPS259472LRPWR"
-			(at 152.4 150.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
-			(at 152.4 250.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "2.7-V to 23-V, 28-m, 5.5-A eFuse with integrated reverse polarity protection"
-			(at 135.89 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 152.4 450.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 152.4 550.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "TPS259472LRPWR"
-			(at 152.4 650.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-TPS259472LRPWR"
-			(at 152.4 750.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259472LRPWR?qs=QNEnbhJQKvZ%2F8gtRvh3Alg%3D%3D"
-			(at 152.4 850.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "TPS259472LRPWR"
-			(at 152.4 950.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps259472lrpwr/texas-instruments?utm_currency=USD&region=nac"
-			(at 152.4 1050.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "ff4d5985-b53f-4dff-bfa5-9f005882dd7f")
-		)
-		(pin "4"
-			(uuid "67185e4b-8c77-4ef6-b3b0-6f6c14ae0413")
-		)
-		(pin "6"
-			(uuid "c06c68e4-d99a-458f-8b5f-ba7b79da07fa")
-		)
-		(pin "1"
-			(uuid "494ace4b-db02-4dad-a3dc-ca80bfc0d162")
-		)
-		(pin "3"
-			(uuid "d29dd9a0-2771-4efb-abfc-5bd922e64dd9")
-		)
-		(pin "5"
-			(uuid "346e70e2-ec92-4cb5-994c-40cf60a56476")
-		)
-		(pin "7"
-			(uuid "80687329-7b3c-44c7-b9dd-a50f4a5dbcb1")
-		)
-		(pin "8"
-			(uuid "9a35ef05-67fb-45e3-a9fb-f2ef743d2dc7")
-		)
-		(pin "10"
-			(uuid "b482ff4b-849a-490d-bba7-34d5d24258d9")
-		)
-		(pin "11"
-			(uuid "2cb7d62f-205a-4fd5-88de-b4fd68dbad6d")
-		)
-		(pin "13"
-			(uuid "a13ed50a-947c-44ca-a416-e4dd864b5716")
-		)
-		(pin "12"
-			(uuid "8fada354-ddad-4b30-8642-86179f97aea6")
-		)
-		(pin "14"
-			(uuid "f015e602-d768-46fb-a250-0ea11d965a87")
-		)
-		(pin "9"
-			(uuid "ea533b12-bb59-4b9d-b96c-05a847fa6cd2")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "U22")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "d1ce3ad5-b9b1-462d-b0c1-5019c335894d")
 	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 104.14 116.84 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0d1d4feb-094b-4d45-acb9-aff198ed0ca7")
-		(property "Reference" "R158"
-			(at 98.044 116.078 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(hierarchical_label "ACC2_PWR_EN"
+		(shape input)
+		(at 53.34 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "10k"
-			(at 99.568 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "e45202f4-3786-486a-9fb4-51cef858ac6b")
+	)
+	(hierarchical_label "ACC2_TX"
+		(shape input)
+		(at 95.25 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 104.14 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "509554f3-1b84-4483-948d-8fe3c966496a")
-		)
-		(pin "2"
-			(uuid "4cae5b65-c203-4156-9830-97a12c40f6c1")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R158")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f8146b7f-7982-436c-bfbc-a0420d31a13f")
 	)
 	(symbol
 		(lib_id "Device:C_Small")
@@ -5236,8 +4923,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0ecc567c-3359-49bc-8396-c63ab6b82ff7")
-		(property "Reference" "C140"
+		(uuid "03158d3e-60be-4258-9dce-9356b6b25e3a")
+		(property "Reference" "C152"
 			(at 153.162 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5301,26 +4988,108 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C140")
+					(reference "C152")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 74.93 55.88 90)
+		(lib_id "Diode:SMAJ15A")
+		(at 252.73 67.31 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "045fe4eb-79e6-4aaa-8fe2-e637d0b612ef")
+		(property "Reference" "D19"
+			(at 255.27 66.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMAJ15A"
+			(at 255.27 68.5799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 247.65 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 252.73 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
+			(at 252.73 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "099b47ff-b460-4f58-a420-670b69566b5f")
+		)
+		(pin "1"
+			(uuid "6f0883a0-d37b-4a12-839b-b95f4ec2015b")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 116.84 115.57 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp yes)
-		(uuid "0f2b55d2-2225-4fb9-a03b-1fa5d293535e")
-		(property "Reference" "R152"
-			(at 77.47 53.594 90)
+		(dnp no)
+		(uuid "08ec0aa7-3c97-4ce3-84c2-97f2244ebae5")
+		(property "Reference" "C151"
+			(at 109.728 114.554 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5330,8 +5099,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470k"
-			(at 77.216 57.912 90)
+		(property "Value" "100nF"
+			(at 108.712 116.586 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5341,8 +5110,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 74.93 55.88 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 116.84 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5353,7 +5122,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 55.88 0)
+			(at 116.84 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5363,8 +5132,8 @@
 				)
 			)
 		)
-		(property "Description" "Resistor, small symbol"
-			(at 74.93 55.88 0)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 116.84 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5375,15 +5144,583 @@
 			)
 		)
 		(pin "1"
-			(uuid "f4739567-9dc5-4ae7-b2b7-7173a166e9c9")
+			(uuid "fb0f9305-4700-4b95-97d2-39410d04a5e9")
 		)
 		(pin "2"
-			(uuid "ec64bf45-ac3c-4ee7-97cd-9d09cda2bf71")
+			(uuid "2f7acbc7-7411-4793-a6f5-7054e7f2510b")
 		)
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R152")
+					(reference "C151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 116.84 119.38 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e7ec6e1-5267-4ad0-9e0a-fd71eff0475f")
+		(property "Reference" "#PWR0199"
+			(at 116.84 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 116.84 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 116.84 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2f3d6bf-0620-4c50-8b9d-5a12fa461457")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 168.91 72.39 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f1d7902-3ebf-4534-bf3b-92ca0869816a")
+		(property "Reference" "R175"
+			(at 166.878 70.358 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 167.386 74.422 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 168.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 168.91 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c0640aa1-230b-4e55-bdcb-479388edb1a9")
+		)
+		(pin "2"
+			(uuid "778dc954-1227-4dcd-8705-c3ae3a8d62dc")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R175")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 67.31 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "22e1e172-cd71-49fc-9f7b-e12befb217be")
+		(property "Reference" "R173"
+			(at 73.406 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 71.882 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 67.31 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bcaa62a5-ebf5-48f0-ab31-56f26c58a349")
+		)
+		(pin "2"
+			(uuid "e5113a07-1b28-4bd0-83a8-9b86eff4492d")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 104.14 116.84 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23625978-c7d3-49b5-8f32-cdb3fb5184f8")
+		(property "Reference" "R181"
+			(at 98.044 116.078 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 99.568 117.856 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 104.14 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 104.14 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "509554f3-1b84-4483-948d-8fe3c966496a")
+		)
+		(pin "2"
+			(uuid "4cae5b65-c203-4156-9830-97a12c40f6c1")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R181")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 19.05 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "26d8dc5d-8766-481d-9cc1-2973fe20b939")
+		(property "Reference" "C147"
+			(at 26.162 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1uF"
+			(at 24.892 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 19.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 19.05 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8215194e-cda8-495b-8c8f-ca99c1a247ce")
+		)
+		(pin "2"
+			(uuid "cf14fa17-06c6-49eb-88a2-39a8155dcc74")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "C147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 31.75 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "30e12b6c-4a3c-488b-80b4-096ebeaa349b")
+		(property "Reference" "C148"
+			(at 38.862 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 39.624 69.342 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 31.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 31.75 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2c282925-a2af-47ff-be72-3dd6a19316c8")
+		)
+		(pin "2"
+			(uuid "be581b37-c776-4b1c-aa86-1ac906987593")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "C148")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 55.88 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "36776c6d-c038-4e67-a30a-9ba8aff4fcb7")
+		(property "Reference" "R169"
+			(at 170.18 53.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "82k"
+			(at 169.418 57.912 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2acedee4-f5cc-4893-84ce-f9c88e276e28")
+		)
+		(pin "2"
+			(uuid "149ac796-632d-449e-ae9b-f0b90fb40806")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R169")
 					(unit 1)
 				)
 			)
@@ -5399,8 +5736,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "192e11bd-195b-4fe0-b665-a35e578ece8e")
-		(property "Reference" "R168"
+		(uuid "376b0ed0-6e32-4a3e-ada5-a17fb6bde42f")
+		(property "Reference" "R170"
 			(at 205.486 58.928 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5464,7 +5801,1572 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R168")
+					(reference "R170")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 58.42 60.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ac6f7ef-1da5-4a78-88f0-8513f721692e")
+		(property "Reference" "R171"
+			(at 56.134 59.182 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 56.642 62.992 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 58.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 58.42 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3b2a9c78-eb4a-4d08-8769-03c473740b34")
+		)
+		(pin "2"
+			(uuid "70c7a9a9-bab2-40ee-ab0a-1bf88cba7e23")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R171")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 127 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ae4657f-f6c5-40be-9974-bd7a5c0c96e6")
+		(property "Reference" "R183"
+			(at 168.402 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.292 125.476 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f11949f-c287-4b6f-a9c1-04baa94a4db8")
+		)
+		(pin "2"
+			(uuid "780fa14b-b26a-4d54-af66-77485a467a98")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R183")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 105.41 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3f21a09c-b0ee-4778-95a3-3033788464e7")
+		(property "Reference" "C150"
+			(at 98.044 81.788 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3.3nF"
+			(at 98.044 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 105.41 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1ec5680b-a483-4fdf-b7e3-8d3ea835b776")
+		)
+		(pin "2"
+			(uuid "1d8ff75c-445b-44b6-aa59-f3b3ebea5372")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "C150")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 162.56 81.28 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "409005d9-d1b6-4b63-a11f-800c1ecfd555")
+		(property "Reference" "R178"
+			(at 168.91 80.264 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.65k"
+			(at 169.164 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 162.56 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c93d49ad-9f83-41de-9078-8b6b637088ab")
+		)
+		(pin "2"
+			(uuid "cd7ecd7a-588b-4c6f-81c1-e1bd4dd17063")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R178")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 243.84 59.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4612d577-93b5-4321-a1f4-e2a887eb3a30")
+		(property "Reference" "C145"
+			(at 250.952 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 251.206 60.452 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f76a8565-78bd-42c6-be0d-d908743380a2")
+		)
+		(pin "2"
+			(uuid "56287d3a-1855-4ed1-9af4-859affb4ba70")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "C145")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 175.26 121.92 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4695949f-19e0-4dee-924f-c107dcd7108c")
+		(property "Reference" "R182"
+			(at 168.402 120.396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 177.292 120.396 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 175.26 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 175.26 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5da8853e-483d-4e92-bc3b-31f6bdc8fd91")
+		)
+		(pin "2"
+			(uuid "4b44f634-a739-4e5e-b382-1cd54971fa26")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R182")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:SMAJ30CA")
+		(at 172.72 142.24 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48c654e6-8e70-4b32-bd10-fadff31add97")
+		(property "Reference" "D22"
+			(at 174.498 142.494 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ30CA"
+			(at 174.498 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 177.8 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 172.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+			(at 172.72 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a531a4ec-6e0b-4e63-ac4f-06ae0ae344e0")
+		)
+		(pin "2"
+			(uuid "3c8470a0-3946-424b-9469-b250d68d95a7")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "D22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:B330")
+		(at 237.49 67.31 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4a8fc91a-8432-4a36-93a1-88189fb8babe")
+		(property "Reference" "D18"
+			(at 235.712 66.04 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "B330A-13-F"
+			(at 235.712 68.072 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 241.935 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
+			(at 237.49 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 3A Schottky Barrier Rectifier Diode, SMC"
+			(at 237.49 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8f36abe8-6df1-4f44-b665-d81f86d82faf")
+		)
+		(pin "1"
+			(uuid "05b5732c-2c0e-4f55-97c7-944ebe5d9741")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 193.04 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b027313-fbc4-4557-b833-fb521bc742dc")
+		(property "Reference" "R180"
+			(at 186.944 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 188.468 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 193.04 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "45fd15a2-009f-4cfc-8bb5-df87cd7d9bf6")
+		)
+		(pin "2"
+			(uuid "1b9bdc84-351e-49c6-87d8-7fdf323258d4")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R180")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 189.23 76.2 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4b90294b-bf2e-498e-b9c9-08e93979f4d3")
+		(property "Reference" "R177"
+			(at 195.326 75.438 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 193.802 77.216 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 189.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 189.23 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0b595dc-a28e-48ba-a0b0-2a662c319a90")
+		)
+		(pin "2"
+			(uuid "5eeaaa56-3da0-4401-b3b5-f2f2a8a61186")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x08")
+		(at 205.74 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5147427b-e7b8-4df0-8749-dda9d910372a")
+		(property "Reference" "J21"
+			(at 204.216 112.014 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "43045-0810"
+			(at 204.216 134.874 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-0810_2x04-1MP_P3.00mm_Horizontal"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "78e1725c-82e1-4782-8062-6471e5b8ac4d")
+		)
+		(pin "3"
+			(uuid "e23663b1-79ff-41cd-b1ce-046c1a453cee")
+		)
+		(pin "4"
+			(uuid "e6640462-17bd-4536-b301-b687033e33fe")
+		)
+		(pin "5"
+			(uuid "3361620a-8b29-4049-aa90-61ed8ed85404")
+		)
+		(pin "2"
+			(uuid "b674cc45-99f9-40d3-bbb2-3a67c49dedec")
+		)
+		(pin "1"
+			(uuid "716b5736-1d8f-4656-aefb-62b44b38978f")
+		)
+		(pin "6"
+			(uuid "d3a4de5e-f5cc-47cd-a51c-79ecc06bd770")
+		)
+		(pin "7"
+			(uuid "ef0901bd-2dd5-48b8-885d-7a5686dde4cd")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5b355667-4df6-4719-949c-8d5aaff80cae")
+		(property "Reference" "#PWR0196"
+			(at 215.9 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33cf06ee-84f0-46b1-b43b-4f7890936165")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 182.88 115.57 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "5f99874d-cf84-45b3-9b77-2cbd63b96901")
+		(property "Reference" "R179"
+			(at 176.784 114.808 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 178.308 116.586 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 182.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 182.88 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "569a3363-6adb-421a-a5a0-23d2e54f1723")
+		)
+		(pin "2"
+			(uuid "784e0269-efe0-42f0-b61a-6168b21564bc")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R179")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+12V")
+		(at 19.05 48.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6afc8119-68d1-431c-af5d-828be5ec31a8")
+		(property "Reference" "#PWR0191"
+			(at 19.05 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+12V"
+			(at 19.05 43.815 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+12V\""
+			(at 19.05 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f1480e8-178d-48b2-8fe9-5a9db17a466f")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0191")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 76.2 72.39 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6ce9c8db-0a1e-47f1-b185-4889e9ecd515")
+		(property "Reference" "R174"
+			(at 82.296 71.628 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "390k"
+			(at 82.042 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 76.2 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 76.2 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bec5f40e-e5f5-4d7f-9405-0cc62690b480")
+		)
+		(pin "2"
+			(uuid "63c8c015-e2d8-4f28-abcd-2334f450fb68")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R174")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 91.44 82.55 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cbab5ca-e063-46a9-8f51-a83fb78aeafe")
+		(property "Reference" "C149"
+			(at 84.074 81.534 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22nF"
+			(at 84.328 83.566 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 91.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 91.44 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "013a2526-a9ed-4266-aee8-de3edb6f4673")
+		)
+		(pin "2"
+			(uuid "5a39968e-c6ec-418f-a623-0a153d31df9f")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "C149")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 215.9 74.93 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82394994-81bc-4e26-ad75-da4f82a0580e")
+		(property "Reference" "D20"
+			(at 219.456 75.946 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GREEN"
+			(at 221.234 73.914 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+			(at 215.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 215.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 215.9 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d841c817-6c71-4474-97fa-18c0cd63c5ad")
+		)
+		(pin "2"
+			(uuid "3d430004-dfe8-4910-837e-c1d379299efc")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 132.08 151.13 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a6c50820-7eb7-40fb-ba9e-f149026abc82")
+		(property "Reference" "#PWR0202"
+			(at 132.08 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.08 155.575 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7295dd0-cdf0-44b9-8c28-2d69b4999fae")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 199.39 135.89 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a87af3b7-5ed8-43b1-9c8a-5b0845568a28")
+		(property "Reference" "#PWR0201"
+			(at 199.39 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 199.39 140.335 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 199.39 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f68d7c9-2c47-44d6-9512-422e778cc590")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -5480,7 +7382,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "1b448553-1ed4-47f4-bfa6-4f58df690ae3")
+		(uuid "b086fc94-25de-4c2b-9b22-bf06b7f79d61")
 		(property "Reference" "Q4"
 			(at 218.44 83.82 0)
 			(show_name no)
@@ -5558,2775 +7460,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 193.04 115.57 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1bd46ff3-d54c-41a4-97e0-3938b5fe201b")
-		(property "Reference" "R167"
-			(at 186.944 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 188.468 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 193.04 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "45fd15a2-009f-4cfc-8bb5-df87cd7d9bf6")
-		)
-		(pin "2"
-			(uuid "1b9bdc84-351e-49c6-87d8-7fdf323258d4")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 121.92 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1e0f46e4-d48d-425c-864a-bff1943d827f")
-		(property "Reference" "R163"
-			(at 168.402 120.396 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.292 120.396 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 175.26 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5da8853e-483d-4e92-bc3b-31f6bdc8fd91")
-		)
-		(pin "2"
-			(uuid "4b44f634-a739-4e5e-b382-1cd54971fa26")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R163")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 67.31 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2a3a63ae-dca3-443d-9bb2-8f574cdb0371")
-		(property "Reference" "R150"
-			(at 73.406 71.628 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 71.882 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.31 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 67.31 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bcaa62a5-ebf5-48f0-ab31-56f26c58a349")
-		)
-		(pin "2"
-			(uuid "e5113a07-1b28-4bd0-83a8-9b86eff4492d")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R150")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ15A")
-		(at 252.73 67.31 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "30a29479-f43a-427c-a0b5-38d90c71585c")
-		(property "Reference" "D15"
-			(at 255.27 66.0399 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SMAJ15A"
-			(at 255.27 68.5799 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 247.65 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 252.73 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W unidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
-			(at 252.73 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "099b47ff-b460-4f58-a420-670b69566b5f")
-		)
-		(pin "1"
-			(uuid "6f0883a0-d37b-4a12-839b-b95f4ec2015b")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "D15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 146.05 119.38 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3379866f-99ed-4b7d-a05d-d11040a88dde")
-		(property "Reference" "#PWR0191"
-			(at 146.05 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 146.05 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 146.05 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 146.05 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 146.05 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ebef90a9-0266-454a-b17e-7d0be4f2919a")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0191")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ30CA")
-		(at 158.75 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3e746772-117b-4812-b08b-27acbdb975b1")
-		(property "Reference" "D11"
-			(at 160.274 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ30CA"
-			(at 160.274 144.272 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 163.83 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 158.75 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
-			(at 158.75 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f9629fc1-113d-4100-8d41-b620e3e7e20c")
-		)
-		(pin "2"
-			(uuid "27f050d7-7111-479d-8194-b45b62e2fc4b")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 215.9 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "423847de-0467-4125-b13b-72c4ac6cfefe")
-		(property "Reference" "#PWR0196"
-			(at 215.9 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 215.9 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 215.9 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33cf06ee-84f0-46b1-b43b-4f7890936165")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0196")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 116.84 115.57 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "469b1c5f-8f88-4573-a36e-98159a302f5d")
-		(property "Reference" "C138"
-			(at 109.728 114.554 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 108.712 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 116.84 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb0f9305-4700-4b95-97d2-39410d04a5e9")
-		)
-		(pin "2"
-			(uuid "2f7acbc7-7411-4793-a6f5-7054e7f2510b")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C138")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 76.2 72.39 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bcfed19-3c04-477a-a500-c1fe39125f07")
-		(property "Reference" "R157"
-			(at 82.296 71.628 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "390k"
-			(at 82.042 73.406 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 76.2 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 76.2 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 76.2 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bec5f40e-e5f5-4d7f-9405-0cc62690b480")
-		)
-		(pin "2"
-			(uuid "63c8c015-e2d8-4f28-abcd-2334f450fb68")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R157")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 243.84 59.69 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4fd694de-89bf-4f42-9964-ecf8b22d989e")
-		(property "Reference" "C141"
-			(at 250.952 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 251.206 60.452 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 243.84 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f76a8565-78bd-42c6-be0d-d908743380a2")
-		)
-		(pin "2"
-			(uuid "56287d3a-1855-4ed1-9af4-859affb4ba70")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C141")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:SMAJ30CA")
-		(at 172.72 142.24 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "51fb9847-9e72-484f-803c-ac9ffb30e999")
-		(property "Reference" "D12"
-			(at 174.498 142.494 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SMAJ30CA"
-			(at 174.498 144.272 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 177.8 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 172.72 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
-			(at 172.72 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a531a4ec-6e0b-4e63-ac4f-06ae0ae344e0")
-		)
-		(pin "2"
-			(uuid "3c8470a0-3946-424b-9469-b250d68d95a7")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 31.75 68.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "587ed0b7-cf9e-4b19-9322-48ed23c5efcb")
-		(property "Reference" "C136"
-			(at 38.862 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 39.624 69.342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 31.75 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 31.75 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c282925-a2af-47ff-be72-3dd6a19316c8")
-		)
-		(pin "2"
-			(uuid "be581b37-c776-4b1c-aa86-1ac906987593")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 105.41 82.55 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6628ed53-00bb-428a-a706-8ed9cd0bcea5")
-		(property "Reference" "C137"
-			(at 98.044 81.788 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.3nF"
-			(at 98.044 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 105.41 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 105.41 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1ec5680b-a483-4fdf-b7e3-8d3ea835b776")
-		)
-		(pin "2"
-			(uuid "1d8ff75c-445b-44b6-aa59-f3b3ebea5372")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C137")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 158.75 91.44 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "66ea5192-0bc1-4c2b-8269-cd5e026dda5d")
-		(property "Reference" "#PWR0192"
-			(at 158.75 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.75 95.885 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "646f1d20-342a-4595-bd2c-4be83fefb2fc")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0192")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 133.35 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6f8b219d-281a-4849-872a-0d678608ccc2")
-		(property "Reference" "#PWR0190"
-			(at 133.35 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 133.35 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aef999d1-71f9-4600-b4fd-b021f3f2666d")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0190")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 167.64 55.88 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7000d481-265e-4082-8b46-75da88439ef5")
-		(property "Reference" "R161"
-			(at 170.18 53.848 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "82k"
-			(at 169.418 57.912 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 167.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 167.64 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2acedee4-f5cc-4893-84ce-f9c88e276e28")
-		)
-		(pin "2"
-			(uuid "149ac796-632d-449e-ae9b-f0b90fb40806")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R161")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 187.96 109.22 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "750535e6-a46c-4db6-8d15-75410ab8d815")
-		(property "Reference" "#PWR0193"
-			(at 187.96 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 187.96 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 187.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 187.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 187.96 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9c84ec71-a7d0-44e4-b4ec-5c0eee4cfb88")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0193")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 104.14 142.24 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7934d036-0eb2-4f1b-8e64-996148eee008")
-		(property "Reference" "R159"
-			(at 98.044 141.478 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 99.568 143.256 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 104.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 104.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 104.14 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80de2b68-8f8b-4f0e-8ba3-38ad50e6bc89")
-		)
-		(pin "2"
-			(uuid "39ac3ef6-f422-4627-949a-98786efee736")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R159")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 246.38 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7afe0df9-04af-4c3b-aca8-63692884017d")
-		(property "Reference" "#PWR0197"
-			(at 246.38 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 246.38 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b03da495-ae82-48e4-84d5-cad5422ae4d4")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0197")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 82.55 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "83176724-5430-46a7-b2ca-6c308bd4082d")
-		(property "Reference" "C130"
-			(at 84.074 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "22nF"
-			(at 84.328 83.566 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "013a2526-a9ed-4266-aee8-de3edb6f4673")
-		)
-		(pin "2"
-			(uuid "5a39968e-c6ec-418f-a623-0a153d31df9f")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C130")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 119.38 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8399c7d3-24b1-4a7d-a078-998f347b50a4")
-		(property "Reference" "#PWR0185"
-			(at 116.84 125.73 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 123.825 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b2f3d6bf-0620-4c50-8b9d-5a12fa461457")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 25.4 81.28 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "89fae05c-ec4c-436a-9b22-cdc373d3b5af")
-		(property "Reference" "#PWR0183"
-			(at 25.4 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 25.4 85.725 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 25.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 25.4 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "56d41e93-ebb9-4ecf-b000-76550b080d64")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0183")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 203.2 74.93 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "90ada0fe-488f-4bdf-8da3-2290ac5a3d94")
-		(property "Reference" "R169"
-			(at 209.296 74.168 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 207.772 75.946 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 203.2 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 203.2 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81dc9119-e255-4edb-a139-21a68a1f5d13")
-		)
-		(pin "2"
-			(uuid "0a0c08e9-a6fc-4ca8-98ae-2d32acf851f1")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R169")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic_Shielded:Conn_01x08_Shielded")
-		(at 205.74 121.92 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "92c03f8a-9d69-476c-8f07-ccaf9d43b7ba")
-		(property "Reference" "J22"
-			(at 208.28 121.9199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x08_Shielded"
-			(at 208.28 124.4599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:MD80SV"
-			(at 205.74 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic shielded connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 205.74 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "8"
-			(uuid "ecd3404c-0b9f-46d9-8381-94f373f4e84f")
-		)
-		(pin "6"
-			(uuid "1ccba2d7-2875-476f-b382-c56ff72adaf5")
-		)
-		(pin "1"
-			(uuid "4e6ab878-b31b-4380-8704-2eb24208f9f1")
-		)
-		(pin "2"
-			(uuid "df08a64d-dcf2-449c-afad-4d42a01ad07f")
-		)
-		(pin "3"
-			(uuid "47893867-9e2a-4292-8b49-760c71d6a315")
-		)
-		(pin "4"
-			(uuid "4af7e972-543d-46cc-b461-942c09d39c85")
-		)
-		(pin "5"
-			(uuid "a13c365c-475a-46ea-81c7-d5b485cbcbae")
-		)
-		(pin "SH"
-			(uuid "914945cd-a810-4385-bb05-fc9f247a6c0b")
-		)
-		(pin "7"
-			(uuid "c6d4bba3-0acd-4945-808f-be32ba51d732")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "J22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 138.43 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1529de6-693c-4024-aef8-998a51a5950d")
-		(property "Reference" "#PWR0194"
-			(at 199.39 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 142.875 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f68d7c9-2c47-44d6-9512-422e778cc590")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0194")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:B330")
-		(at 237.49 67.31 90)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a1cd5dcc-fd7b-4f58-a2b7-7c07c887c6f5")
-		(property "Reference" "D14"
-			(at 235.712 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "B330A-13-F"
-			(at 235.712 68.072 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 241.935 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.jameco.com/Jameco/Products/ProdDS/1538777.pdf"
-			(at 237.49 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V 3A Schottky Barrier Rectifier Diode, SMC"
-			(at 237.49 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8f36abe8-6df1-4f44-b665-d81f86d82faf")
-		)
-		(pin "1"
-			(uuid "05b5732c-2c0e-4f55-97c7-944ebe5d9741")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "D14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 182.88 115.57 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ae47aa6c-16a1-470a-b88b-37e60e0a166c")
-		(property "Reference" "R165"
-			(at 176.784 114.808 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 178.308 116.586 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 182.88 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "569a3363-6adb-421a-a5a0-23d2e54f1723")
-		)
-		(pin "2"
-			(uuid "784e0269-efe0-42f0-b61a-6168b21564bc")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 175.26 127 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b08a4ec7-3d26-4a73-8c5a-f095125895de")
-		(property "Reference" "R164"
-			(at 168.402 125.476 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 177.292 125.476 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 175.26 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4f11949f-c287-4b6f-a9c1-04baa94a4db8")
-		)
-		(pin "2"
-			(uuid "780fa14b-b26a-4d54-af66-77485a467a98")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R164")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 58.42 60.96 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b3017179-3f24-47fc-b017-e0e018521a0e")
-		(property "Reference" "R145"
-			(at 56.134 59.182 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100"
-			(at 56.642 62.992 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 58.42 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 58.42 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3b2a9c78-eb4a-4d08-8769-03c473740b34")
-		)
-		(pin "2"
-			(uuid "70c7a9a9-bab2-40ee-ab0a-1bf88cba7e23")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 189.23 76.2 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5cff058-cf1a-4075-96af-58c6cf13504b")
-		(property "Reference" "R166"
-			(at 195.326 75.438 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 193.802 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 189.23 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 189.23 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b0b595dc-a28e-48ba-a0b0-2a662c319a90")
-		)
-		(pin "2"
-			(uuid "5eeaaa56-3da0-4401-b3b5-f2f2a8a61186")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R166")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 215.9 67.31 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b94c8f64-259d-4ae9-98e7-95eddc3f7906")
-		(property "Reference" "R170"
-			(at 209.55 66.548 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.5k"
-			(at 210.566 68.072 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 215.9 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 215.9 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 215.9 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "314abe6d-3d46-427f-90bc-6bd1ac39a572")
-		)
-		(pin "2"
-			(uuid "afe71de0-d3b9-457e-a680-964b6c5be265")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 265.43 59.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b9a3df8a-7dbb-4039-a5c9-8c1bfbd3fc1f")
-		(property "Reference" "C142"
-			(at 267.716 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47uF"
-			(at 267.716 60.325 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
-			(at 265.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 265.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 265.43 59.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f7267d3c-895f-401a-be66-8a1801f2c797")
-		)
-		(pin "2"
-			(uuid "93121d7e-2b74-443e-a312-dc2de8053ac5")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C142")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 19.05 68.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da7ef398-cf55-49e7-bcb6-53da3b4fba9e")
-		(property "Reference" "C135"
-			(at 26.162 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 24.892 69.342 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 19.05 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 19.05 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8215194e-cda8-495b-8c8f-ca99c1a247ce")
-		)
-		(pin "2"
-			(uuid "cf14fa17-06c6-49eb-88a2-39a8155dcc74")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "C135")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 19.05 48.26 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "dc7e0898-7dbe-4191-bc2a-e2f08ed8fcbb")
-		(property "Reference" "#PWR0155"
-			(at 19.05 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+12V"
-			(at 19.05 43.815 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 19.05 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7f1480e8-178d-48b2-8fe9-5a9db17a466f")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0155")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Library:THVD2450VDRCR")
 		(at 132.08 130.81 0)
 		(unit 1)
@@ -8336,7 +7469,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eaa004fd-6b33-45f5-b710-8f51f7bbb9f5")
+		(uuid "b10115b2-a41e-41d6-868e-2bc8d011a6de")
 		(property "Reference" "U23"
 			(at 123.444 118.364 0)
 			(show_name no)
@@ -8531,8 +7664,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 215.9 74.93 90)
+		(lib_id "Device:C_Polarized_Small")
+		(at 265.43 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8540,29 +7673,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "ec5c00a3-a0f7-4ff5-9b16-229ac0bfcfd9")
-		(property "Reference" "D13"
-			(at 219.456 75.946 90)
+		(uuid "b5c1bd39-45b5-45e0-bd8c-80715b2ecd9b")
+		(property "Reference" "C146"
+			(at 267.716 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GREEN"
-			(at 221.234 73.914 90)
+		(property "Value" "47uF"
+			(at 267.716 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 215.9 74.93 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_6.3x7.7"
+			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,7 +7708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 74.93 0)
+			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8583,19 +7718,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 215.9 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 215.9 74.93 0)
+		(property "Description" "Polarized capacitor, small symbol"
+			(at 265.43 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8606,15 +7730,857 @@
 			)
 		)
 		(pin "1"
-			(uuid "d841c817-6c71-4474-97fa-18c0cd63c5ad")
+			(uuid "f7267d3c-895f-401a-be66-8a1801f2c797")
 		)
 		(pin "2"
-			(uuid "3d430004-dfe8-4910-837e-c1d379299efc")
+			(uuid "93121d7e-2b74-443e-a312-dc2de8053ac5")
 		)
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "D13")
+					(reference "C146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 187.96 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b76247cc-6675-4029-8fbd-3f713053e9e6")
+		(property "Reference" "#PWR0198"
+			(at 187.96 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 187.96 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 187.96 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9c84ec71-a7d0-44e4-b4ec-5c0eee4cfb88")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0198")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 215.9 67.31 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c57dbb6f-04a8-4c9e-8b91-97b46c737fef")
+		(property "Reference" "R172"
+			(at 209.55 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1.5k"
+			(at 210.566 68.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 215.9 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "314abe6d-3d46-427f-90bc-6bd1ac39a572")
+		)
+		(pin "2"
+			(uuid "afe71de0-d3b9-457e-a680-964b6c5be265")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c7cc7221-f871-4dd0-b488-6cd9073b542c")
+		(property "Reference" "#PWR0193"
+			(at 25.4 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "56d41e93-ebb9-4ecf-b000-76550b080d64")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 91.44 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cbb1103c-095f-488c-9337-ff798f9d2a21")
+		(property "Reference" "#PWR0195"
+			(at 158.75 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 95.885 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "646f1d20-342a-4595-bd2c-4be83fefb2fc")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 74.93 55.88 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "cdc1e5a3-62bf-40ee-bc66-fab8d8c82b9f")
+		(property "Reference" "R168"
+			(at 77.47 53.594 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "470k"
+			(at 77.216 57.912 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 74.93 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4739567-9dc5-4ae7-b2b7-7173a166e9c9")
+		)
+		(pin "2"
+			(uuid "ec64bf45-ac3c-4ee7-97cd-9d09cda2bf71")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R168")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 133.35 109.22 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce0ab251-3d82-439e-b58e-38207a28284f")
+		(property "Reference" "#PWR0197"
+			(at 133.35 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 133.35 105.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 133.35 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aef999d1-71f9-4600-b4fd-b021f3f2666d")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 203.2 74.93 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "da3cf3aa-bf2c-4740-a7e7-a5105e12669d")
+		(property "Reference" "R176"
+			(at 209.296 74.168 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 207.772 75.946 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 203.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 203.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 203.2 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "81dc9119-e255-4edb-a139-21a68a1f5d13")
+		)
+		(pin "2"
+			(uuid "0a0c08e9-a6fc-4ca8-98ae-2d32acf851f1")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R176")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 246.38 81.28 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da8a7131-4165-44f7-9df2-e17a0931c026")
+		(property "Reference" "#PWR0194"
+			(at 246.38 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 246.38 85.725 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 246.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 246.38 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b03da495-ae82-48e4-84d5-cad5422ae4d4")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0194")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Library:TPS259472LRPWR")
+		(at 107.95 55.88 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de7cedd3-db42-4e7a-8ef8-3c317f78aec0")
+		(property "Reference" "U22"
+			(at 132.334 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS259472LRPWR"
+			(at 132.334 82.804 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:TPS259472LRPWR"
+			(at 152.4 150.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps25947.pdf"
+			(at 152.4 250.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "2.7-V to 23-V, 28-m, 5.5-A eFuse with integrated reverse polarity protection"
+			(at 135.89 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1"
+			(at 152.4 450.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 152.4 550.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TPS259472LRPWR"
+			(at 152.4 650.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "595-TPS259472LRPWR"
+			(at 152.4 750.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS259472LRPWR?qs=QNEnbhJQKvZ%2F8gtRvh3Alg%3D%3D"
+			(at 152.4 850.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "TPS259472LRPWR"
+			(at 152.4 950.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/tps259472lrpwr/texas-instruments?utm_currency=USD&region=nac"
+			(at 152.4 1050.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ff4d5985-b53f-4dff-bfa5-9f005882dd7f")
+		)
+		(pin "4"
+			(uuid "67185e4b-8c77-4ef6-b3b0-6f6c14ae0413")
+		)
+		(pin "6"
+			(uuid "c06c68e4-d99a-458f-8b5f-ba7b79da07fa")
+		)
+		(pin "1"
+			(uuid "494ace4b-db02-4dad-a3dc-ca80bfc0d162")
+		)
+		(pin "3"
+			(uuid "d29dd9a0-2771-4efb-abfc-5bd922e64dd9")
+		)
+		(pin "5"
+			(uuid "346e70e2-ec92-4cb5-994c-40cf60a56476")
+		)
+		(pin "7"
+			(uuid "80687329-7b3c-44c7-b9dd-a50f4a5dbcb1")
+		)
+		(pin "8"
+			(uuid "9a35ef05-67fb-45e3-a9fb-f2ef743d2dc7")
+		)
+		(pin "10"
+			(uuid "b482ff4b-849a-490d-bba7-34d5d24258d9")
+		)
+		(pin "11"
+			(uuid "2cb7d62f-205a-4fd5-88de-b4fd68dbad6d")
+		)
+		(pin "13"
+			(uuid "a13ed50a-947c-44ca-a416-e4dd864b5716")
+		)
+		(pin "12"
+			(uuid "8fada354-ddad-4b30-8642-86179f97aea6")
+		)
+		(pin "14"
+			(uuid "f015e602-d768-46fb-a250-0ea11d965a87")
+		)
+		(pin "9"
+			(uuid "ea533b12-bb59-4b9d-b96c-05a847fa6cd2")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "U22")
 					(unit 1)
 				)
 			)
@@ -8631,8 +8597,8 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "f3b3a885-054b-4c3e-bc54-1091b07dccb5")
-		(property "Reference" "#PWR0195"
+		(uuid "dedb87e4-a950-422b-a374-80851ce3359c")
+		(property "Reference" "#PWR0192"
 			(at 215.9 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -8692,16 +8658,15 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0195")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 132.08 151.13 0)
-		(mirror y)
+		(lib_id "Diode:SMAJ30CA")
+		(at 158.75 142.24 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8709,10 +8674,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f49e4704-4d42-476d-9d5f-a3f4491928af")
-		(property "Reference" "#PWR0189"
-			(at 132.08 157.48 0)
+		(uuid "e69df265-3f9e-4ca4-b5ef-1cf37298be01")
+		(property "Reference" "D21"
+			(at 160.274 142.494 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SMAJ30CA"
+			(at 160.274 144.272 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 163.83 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8722,8 +8708,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 132.08 155.575 0)
+		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
+			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8733,30 +8719,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 132.08 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 132.08 151.13 0)
+		(property "Description" "400W bidirectional Transient Voltage Suppressor, 30.0Vr, SMA(DO-214AC)"
+			(at 158.75 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8767,93 +8731,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d7295dd0-cdf0-44b9-8c28-2d69b4999fae")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "#PWR0189")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 162.56 81.28 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fbeee0db-713c-47ad-8e87-e1cd0109ccb3")
-		(property "Reference" "R160"
-			(at 168.91 80.264 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1.65k"
-			(at 169.164 82.55 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 162.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 162.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 162.56 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c93d49ad-9f83-41de-9078-8b6b637088ab")
+			(uuid "f9629fc1-113d-4100-8d41-b620e3e7e20c")
 		)
 		(pin "2"
-			(uuid "cd7ecd7a-588b-4c6f-81c1-e1bd4dd17063")
+			(uuid "27f050d7-7111-479d-8194-b45b62e2fc4b")
 		)
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R160")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -8861,7 +8747,8 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
-		(at 168.91 72.39 270)
+		(at 104.14 142.24 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8869,9 +8756,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "fc3be166-a713-4a14-aaeb-0438e35c6e16")
-		(property "Reference" "R162"
-			(at 166.878 70.358 90)
+		(uuid "f9b1371f-c721-403b-b972-450f6d128c76")
+		(property "Reference" "R184"
+			(at 98.044 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8882,7 +8769,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 167.386 74.422 90)
+			(at 99.568 143.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8893,7 +8780,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 168.91 72.39 0)
+			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8904,7 +8791,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 72.39 0)
+			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8915,7 +8802,7 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 168.91 72.39 0)
+			(at 104.14 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,15 +8813,94 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0640aa1-230b-4e55-bdcb-479388edb1a9")
+			(uuid "80de2b68-8f8b-4f0e-8ba3-38ad50e6bc89")
 		)
 		(pin "2"
-			(uuid "778dc954-1227-4dcd-8705-c3ae3a8d62dc")
+			(uuid "39ac3ef6-f422-4627-949a-98786efee736")
 		)
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
-					(reference "R162")
+					(reference "R184")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faa8922d-66e7-4bc0-a1b4-2d5086503831")
+		(property "Reference" "#PWR0200"
+			(at 146.05 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 123.825 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ebef90a9-0266-454a-b17e-7d0be4f2919a")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "#PWR0200")
 					(unit 1)
 				)
 			)

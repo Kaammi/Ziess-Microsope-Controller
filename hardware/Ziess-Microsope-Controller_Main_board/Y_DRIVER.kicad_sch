@@ -3763,7 +3763,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "040b1ef8-8c28-4e75-9dd9-5279937327eb")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR092"
 			(at 172.72 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3824,7 +3824,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR047")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -3842,7 +3842,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "04441354-7ae8-4cd6-a95a-ca4f27fe69fb")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR098"
 			(at 143.51 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -3903,7 +3903,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR053")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -3920,7 +3920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "131567f0-4693-49a2-aa70-8d486ee4727a")
-		(property "Reference" "C55"
+		(property "Reference" "C94"
 			(at 200.025 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3984,7 +3984,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C55")
+					(reference "C94")
 					(unit 1)
 				)
 			)
@@ -4001,7 +4001,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "1bbdcf01-e382-43b1-a846-358b16cd2a60")
-		(property "Reference" "R42"
+		(property "Reference" "R80"
 			(at 52.07 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4065,7 +4065,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R42")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -4082,7 +4082,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "293a843b-6359-4fbb-9690-2368501159ee")
-		(property "Reference" "R49"
+		(property "Reference" "R87"
 			(at 104.394 93.98 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4146,7 +4146,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R49")
+					(reference "R87")
 					(unit 1)
 				)
 			)
@@ -4163,7 +4163,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "2cc29223-a626-438d-89be-b298bba94c46")
-		(property "Reference" "R55"
+		(property "Reference" "R93"
 			(at 104.14 113.665 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4227,7 +4227,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R55")
+					(reference "R93")
 					(unit 1)
 				)
 			)
@@ -4244,7 +4244,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2cf8110a-bdf2-4aa4-b84f-9d1497855b8a")
-		(property "Reference" "R41"
+		(property "Reference" "R79"
 			(at 118.872 73.914 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4308,7 +4308,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R41")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -4325,7 +4325,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30869944-2b3f-47e5-b397-9225d3b12819")
-		(property "Reference" "J3"
+		(property "Reference" "J7"
 			(at 238.76 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4395,7 +4395,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "J3")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -4413,7 +4413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "30dd01f8-8bf4-47c2-858f-b218ea65b0a5")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR097"
 			(at 213.36 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -4474,7 +4474,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR052")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -4492,7 +4492,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "343af964-1a54-4cc8-8057-0d104cbdcdcd")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR088"
 			(at 161.29 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -4553,7 +4553,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR043")
+					(reference "#PWR088")
 					(unit 1)
 				)
 			)
@@ -4570,7 +4570,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37789386-ca52-42fd-a540-8124bfca630b")
-		(property "Reference" "R47"
+		(property "Reference" "R85"
 			(at 64.77 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4634,7 +4634,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R47")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -4652,7 +4652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "390dffdd-e6d0-4029-90eb-f70f22e9cd0d")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0102"
 			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -4713,7 +4713,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR057")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4730,7 +4730,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "408f8885-ac76-4130-b018-d2311abb063c")
-		(property "Reference" "C58"
+		(property "Reference" "C97"
 			(at 230.505 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4794,7 +4794,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C58")
+					(reference "C97")
 					(unit 1)
 				)
 			)
@@ -4811,7 +4811,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4159c971-5b5b-4633-b5d4-0fb22eaf126b")
-		(property "Reference" "C51"
+		(property "Reference" "C90"
 			(at 178.435 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4875,7 +4875,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C51")
+					(reference "C90")
 					(unit 1)
 				)
 			)
@@ -4892,7 +4892,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4cacadc8-87ef-48a4-ab1d-2727210ec723")
-		(property "Reference" "C45"
+		(property "Reference" "C84"
 			(at 172.085 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4956,7 +4956,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C45")
+					(reference "C84")
 					(unit 1)
 				)
 			)
@@ -4974,7 +4974,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fa78c5a-3643-41a9-8964-d69791232641")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR0100"
 			(at 102.87 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5035,7 +5035,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR055")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -5053,7 +5053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60eaceeb-826e-49ce-8c66-27f190d285a1")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR096"
 			(at 67.31 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -5114,7 +5114,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR051")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -5131,7 +5131,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "645f88b4-79a9-47ed-8ab1-bcbafac22f0c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR089"
 			(at 50.8 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -5191,7 +5191,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR044")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -5208,7 +5208,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6aa160cb-caf8-4df6-b09b-b08ea6646c6b")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR085"
 			(at 210.82 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5268,7 +5268,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR040")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -5286,7 +5286,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c08e509-d6ef-4621-9faf-09320bdc9a26")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR087"
 			(at 210.82 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -5347,7 +5347,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR042")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -5364,7 +5364,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "734b3266-0513-4fc7-9726-d590c707c2f3")
-		(property "Reference" "R46"
+		(property "Reference" "R84"
 			(at 52.07 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5428,7 +5428,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R46")
+					(reference "R84")
 					(unit 1)
 				)
 			)
@@ -5445,7 +5445,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76b2018b-a91c-4ec8-8c0c-12edc02877fb")
-		(property "Reference" "C49"
+		(property "Reference" "C88"
 			(at 212.725 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5509,7 +5509,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C49")
+					(reference "C88")
 					(unit 1)
 				)
 			)
@@ -5526,7 +5526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7737846b-0273-4039-8946-0a0a1b784892")
-		(property "Reference" "C52"
+		(property "Reference" "C91"
 			(at 188.595 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5590,7 +5590,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C52")
+					(reference "C91")
 					(unit 1)
 				)
 			)
@@ -5607,7 +5607,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7fdbd95e-bde7-4f4b-9de8-b3ae014df160")
-		(property "Reference" "C56"
+		(property "Reference" "C95"
 			(at 210.185 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5671,7 +5671,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C56")
+					(reference "C95")
 					(unit 1)
 				)
 			)
@@ -5688,7 +5688,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "879a3332-8d58-4222-9309-a6a6211a7c92")
-		(property "Reference" "C44"
+		(property "Reference" "C83"
 			(at 125.73 54.6162 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5752,7 +5752,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C44")
+					(reference "C83")
 					(unit 1)
 				)
 			)
@@ -5770,7 +5770,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "903a18f7-ad98-45ff-856c-f5776a0b3502")
-		(property "Reference" "R51"
+		(property "Reference" "R89"
 			(at 125.73 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,7 +5834,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R51")
+					(reference "R89")
 					(unit 1)
 				)
 			)
@@ -5851,7 +5851,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "94538b38-8186-47b8-84ad-133a69561ddb")
-		(property "Reference" "U6"
+		(property "Reference" "U11"
 			(at 130.81 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5996,7 +5996,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "U6")
+					(reference "U11")
 					(unit 1)
 				)
 			)
@@ -6013,7 +6013,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "96eb5890-db3b-4806-a948-ff3ffa945fd9")
-		(property "Reference" "R48"
+		(property "Reference" "R86"
 			(at 72.39 90.805 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6077,7 +6077,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R48")
+					(reference "R86")
 					(unit 1)
 				)
 			)
@@ -6094,7 +6094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98aa36b8-d917-4f1e-9103-90fad4c929a0")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR084"
 			(at 121.92 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -6154,7 +6154,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR039")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -6171,7 +6171,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9a52f9b4-4cc2-4bdd-a045-80ea7fc64f3e")
-		(property "Reference" "R39"
+		(property "Reference" "R77"
 			(at 162.56 60.325 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6235,7 +6235,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R39")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -6252,7 +6252,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9beb2b06-a6d0-4a9c-95d4-b01c86a448e6")
-		(property "Reference" "R44"
+		(property "Reference" "R82"
 			(at 72.39 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6316,7 +6316,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R44")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -6333,7 +6333,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db657d2-f326-444f-8abc-303382758a6c")
-		(property "Reference" "C48"
+		(property "Reference" "C87"
 			(at 201.295 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6397,7 +6397,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C48")
+					(reference "C87")
 					(unit 1)
 				)
 			)
@@ -6414,7 +6414,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5c41166-689f-483c-a7d3-229d76a03cb6")
-		(property "Reference" "R53"
+		(property "Reference" "R91"
 			(at 186.69 112.395 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6478,7 +6478,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R53")
+					(reference "R91")
 					(unit 1)
 				)
 			)
@@ -6495,7 +6495,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a80d6a34-9afe-4c97-9cd9-ff9c7bf55a54")
-		(property "Reference" "R43"
+		(property "Reference" "R81"
 			(at 64.77 79.375 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6559,7 +6559,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R43")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -6577,7 +6577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9520ebd-da00-4f42-859c-70a8bc489158")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR086"
 			(at 123.19 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6638,7 +6638,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR041")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6656,7 +6656,7 @@
 		(in_pos_files yes)
 		(dnp yes)
 		(uuid "a97b52ec-5afb-4a8b-b320-6e16a1ea39bd")
-		(property "Reference" "R45"
+		(property "Reference" "R83"
 			(at 102.235 80.645 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6720,7 +6720,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R45")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -6737,7 +6737,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ace175ab-f455-4c39-a0df-e87e4f651723")
-		(property "Reference" "C53"
+		(property "Reference" "C92"
 			(at 196.215 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6801,7 +6801,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C53")
+					(reference "C92")
 					(unit 1)
 				)
 			)
@@ -6818,7 +6818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b43038c0-9b06-4fb6-ac04-b55c35f9b0d0")
-		(property "Reference" "C50"
+		(property "Reference" "C89"
 			(at 151.13 58.4262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6882,7 +6882,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C50")
+					(reference "C89")
 					(unit 1)
 				)
 			)
@@ -6900,7 +6900,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b7747661-958d-4024-8f69-ed8e16cabac5")
-		(property "Reference" "R40"
+		(property "Reference" "R78"
 			(at 118.872 68.326 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +6964,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R40")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -6981,7 +6981,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be15034b-e4b0-4ac4-8c11-94816d186648")
-		(property "Reference" "C57"
+		(property "Reference" "C96"
 			(at 220.345 104.14 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7045,7 +7045,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C57")
+					(reference "C96")
 					(unit 1)
 				)
 			)
@@ -7062,7 +7062,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c786ad50-9381-4a7b-82d5-fbb881ef30a9")
-		(property "Reference" "R54"
+		(property "Reference" "R92"
 			(at 91.44 113.665 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7126,7 +7126,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R54")
+					(reference "R92")
 					(unit 1)
 				)
 			)
@@ -7143,7 +7143,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb3c796a-8e37-41ef-aa58-44cb49a7b46f")
-		(property "Reference" "C60"
+		(property "Reference" "C99"
 			(at 198.755 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +7207,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C60")
+					(reference "C99")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7224,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb6d50f8-4585-4ae4-9e54-803f2ae37148")
-		(property "Reference" "C59"
+		(property "Reference" "C98"
 			(at 172.085 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7288,7 +7288,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C59")
+					(reference "C98")
 					(unit 1)
 				)
 			)
@@ -7305,7 +7305,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d2e0f10b-d75b-4bae-b395-42ad38188a21")
-		(property "Reference" "C47"
+		(property "Reference" "C86"
 			(at 191.135 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7369,7 +7369,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C47")
+					(reference "C86")
 					(unit 1)
 				)
 			)
@@ -7386,7 +7386,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc9ee120-3629-43c0-8427-519bb706ba7d")
-		(property "Reference" "C43"
+		(property "Reference" "C82"
 			(at 163.195 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7450,7 +7450,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C43")
+					(reference "C82")
 					(unit 1)
 				)
 			)
@@ -7467,7 +7467,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1069199-9443-4362-94e8-6a311503a19b")
-		(property "Reference" "R50"
+		(property "Reference" "R88"
 			(at 120.65 103.505 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7531,7 +7531,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R50")
+					(reference "R88")
 					(unit 1)
 				)
 			)
@@ -7548,7 +7548,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4241d4c-3ae0-4be7-b5e7-cb3bda5a2817")
-		(property "Reference" "R52"
+		(property "Reference" "R90"
 			(at 176.53 112.395 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7612,7 +7612,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "R52")
+					(reference "R90")
 					(unit 1)
 				)
 			)
@@ -7629,7 +7629,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4c3608f-1ba0-47af-b19c-91691be76003")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR090"
 			(at 67.31 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -7689,7 +7689,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR045")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -7706,7 +7706,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4fa3194-26b3-42ca-8561-7998f9ae6360")
-		(property "Reference" "C54"
+		(property "Reference" "C93"
 			(at 165.1 81.2862 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7770,7 +7770,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C54")
+					(reference "C93")
 					(unit 1)
 				)
 			)
@@ -7788,7 +7788,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62e0003-07a4-4d33-b546-9af6b1c3700e")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR0101"
 			(at 180.34 127 0)
 			(hide yes)
 			(show_name no)
@@ -7849,7 +7849,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR056")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -7867,7 +7867,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6e50079-a329-4085-96a3-533a50ccfd92")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR095"
 			(at 50.8 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -7928,7 +7928,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR050")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -7946,7 +7946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e815671c-cf8d-4d7d-9c75-f70c969215a9")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR091"
 			(at 124.46 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -8007,7 +8007,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR046")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -8025,7 +8025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eadc764c-76ef-4a4c-a1fe-49f0788b7534")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR093"
 			(at 194.31 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -8086,7 +8086,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR048")
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
@@ -8103,7 +8103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f02228b8-1429-44a5-a8cd-72b3e938b08f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR094"
 			(at 115.57 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -8163,7 +8163,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR049")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -8181,7 +8181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f0286cbe-981a-4f9e-b3ae-47c5bd99b727")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR099"
 			(at 90.17 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -8242,7 +8242,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "#PWR054")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -8259,7 +8259,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f6d3c1ea-cae7-4754-81a1-4cc7cac7817b")
-		(property "Reference" "D5"
+		(property "Reference" "D7"
 			(at 127.635 121.285 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8332,7 +8332,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "D5")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -8349,7 +8349,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f7846679-792f-4efe-a06c-69512578db24")
-		(property "Reference" "C46"
+		(property "Reference" "C85"
 			(at 182.245 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8413,7 +8413,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/99061527-4f22-4484-ae98-653e9a666144"
-					(reference "C46")
+					(reference "C85")
 					(unit 1)
 				)
 			)
