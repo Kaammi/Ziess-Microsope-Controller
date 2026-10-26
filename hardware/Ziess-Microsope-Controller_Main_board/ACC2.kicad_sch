@@ -3076,19 +3076,13 @@
 		)
 	)
 	(junction
-		(at 133.35 110.49)
+		(at 133.35 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "005977f1-d9fb-4012-8f62-72e03e51a580")
 	)
 	(junction
-		(at 104.14 130.81)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04b09c5a-ce91-4d33-b728-16383852e3d6")
-	)
-	(junction
-		(at 135.89 110.49)
+		(at 135.89 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06c2defd-6749-49c0-9ac8-765ebcde9f9b")
@@ -3130,12 +3124,6 @@
 		(uuid "2898aa2d-1560-4434-ae73-d1b8e4c41f66")
 	)
 	(junction
-		(at 127 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28a31cf8-a045-4d68-9390-3a9e01d0ae3c")
-	)
-	(junction
 		(at 243.84 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3170,12 +3158,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e40c88d-e9ba-4d89-919f-33394a5979e4")
-	)
-	(junction
-		(at 104.14 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "52e35442-89a3-4f2e-ba44-6d4a72706dd2")
 	)
 	(junction
 		(at 189.23 60.96)
@@ -3220,7 +3202,7 @@
 		(uuid "75fe1eff-c9dc-433b-9d54-aed519469a5e")
 	)
 	(junction
-		(at 116.84 110.49)
+		(at 116.84 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9693fc1d-be93-4f67-a919-67dc61ed4366")
@@ -3238,7 +3220,7 @@
 		(uuid "99082b67-21ec-4f95-b93c-7d6970a10812")
 	)
 	(junction
-		(at 130.81 110.49)
+		(at 130.81 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9c7fd834-da3c-4a6f-889c-04ec9bb226fa")
@@ -3256,6 +3238,12 @@
 		(uuid "a6c3e5ed-0234-4858-8863-1d0781da320e")
 	)
 	(junction
+		(at 104.14 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa055d45-b285-4b61-88e3-44dd41a6af08")
+	)
+	(junction
 		(at 252.73 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3268,10 +3256,28 @@
 		(uuid "b5f3dcd5-2e61-4e08-b8a4-069fc217194e")
 	)
 	(junction
+		(at 147.32 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "be0cec43-2a17-4fa1-98c2-f2142a5f6870")
+	)
+	(junction
+		(at 127 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfb892ad-8b94-45c0-beb9-a9f6a6c22504")
+	)
+	(junction
 		(at 203.2 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf740172-8ca1-47da-943a-f6decbea4894")
+	)
+	(junction
+		(at 147.32 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e2f29e63-97fe-48a4-a1ea-21f77fc58ed1")
 	)
 	(junction
 		(at 31.75 49.53)
@@ -3310,6 +3316,12 @@
 		(uuid "f955df68-e4ad-450c-b60c-bfe1035c8337")
 	)
 	(junction
+		(at 104.14 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fd6cedc5-2762-4046-8af5-3dfe41cc38e2")
+	)
+	(junction
 		(at 19.05 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3327,7 +3339,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 110.49) (xy 116.84 110.49)
+			(xy 104.14 105.41) (xy 116.84 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3347,13 +3359,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 133.35) (xy 146.05 133.35)
+			(xy 104.14 125.73) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "084a25c1-deb8-4d09-9c4d-1c1201118146")
+		(uuid "06631444-ef9b-42aa-9398-98988523b52d")
 	)
 	(wire
 		(pts
@@ -3387,7 +3399,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 110.49) (xy 133.35 110.49)
+			(xy 130.81 105.41) (xy 133.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3404,6 +3416,26 @@
 			(type default)
 		)
 		(uuid "0cb344f0-0968-4f6d-be0b-221d6c46384f")
+	)
+	(wire
+		(pts
+			(xy 92.71 125.73) (xy 85.09 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11a8c8db-8ad2-46a3-ab05-599fbc8c9728")
+	)
+	(wire
+		(pts
+			(xy 153.67 132.08) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "121e3e88-1b03-4ef9-b920-4a124bdb229f")
 	)
 	(wire
 		(pts
@@ -3427,7 +3459,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 109.22) (xy 133.35 110.49)
+			(xy 133.35 104.14) (xy 133.35 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3497,6 +3529,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 129.54) (xy 158.75 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23d502f9-2fae-4187-89a5-61ff89ce39a4")
+	)
+	(wire
+		(pts
 			(xy 172.72 132.08) (xy 200.66 132.08)
 		)
 		(stroke
@@ -3507,23 +3549,13 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 128.27) (xy 148.59 129.54)
+			(xy 92.71 137.16) (xy 85.09 137.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "25b75b02-fb19-4071-85f5-90b65cbf81ab")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 130.81 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2755b1de-b3bf-4107-8f71-0930d17baf70")
+		(uuid "278b5e75-2808-4814-be0f-0e4beb86cb32")
 	)
 	(wire
 		(pts
@@ -3544,16 +3576,6 @@
 			(type default)
 		)
 		(uuid "2b4e8350-b18b-4faa-a8a8-674dfa9b6246")
-	)
-	(wire
-		(pts
-			(xy 116.84 113.03) (xy 116.84 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b6042b8-7def-4ea5-a1df-b7dffd8626ef")
 	)
 	(wire
 		(pts
@@ -3587,7 +3609,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 114.3) (xy 104.14 110.49)
+			(xy 104.14 114.3) (xy 104.14 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3677,6 +3699,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 137.16) (xy 116.84 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3872210f-19ea-42f9-b447-f639f9401f33")
+	)
+	(wire
+		(pts
 			(xy 146.05 118.11) (xy 146.05 119.38)
 		)
 		(stroke
@@ -3687,7 +3719,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 114.3) (xy 130.81 110.49)
+			(xy 130.81 114.3) (xy 130.81 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3704,16 +3736,6 @@
 			(type default)
 		)
 		(uuid "453c9b62-58f3-437a-ad10-b23f63603b7b")
-	)
-	(wire
-		(pts
-			(xy 148.59 132.08) (xy 148.59 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4672c084-7902-4b9a-889e-036222bc6a7f")
 	)
 	(wire
 		(pts
@@ -3767,7 +3789,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 110.49) (xy 127 110.49)
+			(xy 116.84 105.41) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -3804,6 +3826,26 @@
 			(type default)
 		)
 		(uuid "56d25366-a02d-42a7-b7d9-48a8dafe7079")
+	)
+	(wire
+		(pts
+			(xy 146.05 105.41) (xy 146.05 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e7b0df-2536-4ffd-a9a1-544288fd4fa4")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 127 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "579d2a28-5d9a-4207-9a31-a4fa1a49b7e4")
 	)
 	(wire
 		(pts
@@ -3907,6 +3949,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 125.73) (xy 104.14 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69dd1cc3-e05a-4b7a-b89d-9b70cc226c43")
+	)
+	(wire
+		(pts
 			(xy 67.31 60.96) (xy 67.31 69.85)
 		)
 		(stroke
@@ -3994,6 +4046,16 @@
 			(type default)
 		)
 		(uuid "7fb74cea-c9df-4628-b428-b4a1cf2fa9d8")
+	)
+	(wire
+		(pts
+			(xy 146.05 128.27) (xy 153.67 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82e640ad-7baf-4a5c-a916-b63b51836f8c")
 	)
 	(wire
 		(pts
@@ -4357,26 +4419,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 129.54) (xy 158.75 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1b3e0f6-5f3f-41e1-83da-f04dd75a202e")
-	)
-	(wire
-		(pts
-			(xy 148.59 132.08) (xy 172.72 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b33335e9-0970-478c-ad7c-a1f39f9beb98")
-	)
-	(wire
-		(pts
 			(xy 243.84 49.53) (xy 252.73 49.53)
 		)
 		(stroke
@@ -4387,7 +4429,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 110.49) (xy 135.89 114.3)
+			(xy 135.89 105.41) (xy 135.89 114.3)
 		)
 		(stroke
 			(width 0)
@@ -4397,23 +4439,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 110.49) (xy 146.05 110.49)
+			(xy 135.89 105.41) (xy 146.05 105.41)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b760aef1-1448-4c6a-a7bd-c0e66ca2c58b")
-	)
-	(wire
-		(pts
-			(xy 148.59 128.27) (xy 146.05 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b854eb7d-2f67-4f86-89bb-ec83d5d151af")
 	)
 	(wire
 		(pts
@@ -4427,23 +4459,13 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 104.14 125.73)
+			(xy 97.79 130.81) (xy 104.14 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9835794-3ce3-47b4-9e55-7133e566fffc")
-	)
-	(wire
-		(pts
-			(xy 127 110.49) (xy 127 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb161bc1-e822-4dc9-b4da-9c118c8d0feb")
+		(uuid "bbfd4c58-36b3-4b73-b806-996523e44ed4")
 	)
 	(wire
 		(pts
@@ -4484,6 +4506,16 @@
 			(type default)
 		)
 		(uuid "bf1562c3-d7cc-4c40-932a-1102b354767e")
+	)
+	(wire
+		(pts
+			(xy 153.67 128.27) (xy 153.67 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0038950-075e-4bee-9a62-6f7b1817d590")
 	)
 	(wire
 		(pts
@@ -4537,6 +4569,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 132.08) (xy 172.72 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fb4757-5815-4e1b-a056-265a87570ca7")
+	)
+	(wire
+		(pts
 			(xy 237.49 63.5) (xy 237.49 49.53)
 		)
 		(stroke
@@ -4544,16 +4586,6 @@
 			(type default)
 		)
 		(uuid "c7549b3c-8682-45e8-a660-634866aafd58")
-	)
-	(wire
-		(pts
-			(xy 146.05 110.49) (xy 146.05 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca6fb92a-0fe8-4c21-a723-d9b7f4237cac")
 	)
 	(wire
 		(pts
@@ -4607,16 +4639,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 137.16) (xy 116.84 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2f703d1-f142-4f51-b7e3-398523d0c324")
-	)
-	(wire
-		(pts
 			(xy 31.75 81.28) (xy 25.4 81.28)
 		)
 		(stroke
@@ -4627,6 +4649,16 @@
 	)
 	(wire
 		(pts
+			(xy 146.05 133.35) (xy 153.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5bd8835-b64b-4a60-8113-653ba9895bdb")
+	)
+	(wire
+		(pts
 			(xy 99.06 55.88) (xy 107.95 55.88)
 		)
 		(stroke
@@ -4634,6 +4666,26 @@
 			(type default)
 		)
 		(uuid "d8674a53-8736-44ff-a5a2-0e734ece58ce")
+	)
+	(wire
+		(pts
+			(xy 127 105.41) (xy 130.81 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8683e29-d8a0-4d7f-b4b9-3c46c511753a")
+	)
+	(wire
+		(pts
+			(xy 92.71 130.81) (xy 85.09 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da2527f8-d9ff-42bb-b7a4-9e0e083dc124")
 	)
 	(wire
 		(pts
@@ -4677,27 +4729,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 130.81) (xy 104.14 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4044faf-f830-4cea-bff0-6b2b2d010d2a")
-	)
-	(wire
-		(pts
-			(xy 104.14 125.73) (xy 116.84 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e40473a6-cc0c-4c74-909a-6046e979b97f")
-	)
-	(wire
-		(pts
-			(xy 133.35 110.49) (xy 135.89 110.49)
+			(xy 133.35 105.41) (xy 135.89 105.41)
 		)
 		(stroke
 			(width 0)
@@ -4744,6 +4776,26 @@
 			(type default)
 		)
 		(uuid "efa13209-591e-40fa-96f4-2eb71b8afc53")
+	)
+	(wire
+		(pts
+			(xy 116.84 105.41) (xy 116.84 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f01d4e32-39be-44f8-b72b-d8f5d022022a")
+	)
+	(wire
+		(pts
+			(xy 127 111.76) (xy 127 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f05ec8b4-e414-4558-898d-c4806b884e80")
 	)
 	(wire
 		(pts
@@ -4838,7 +4890,7 @@
 	)
 	(hierarchical_label "ACC2_RX"
 		(shape output)
-		(at 95.25 125.73 180)
+		(at 85.09 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4860,7 +4912,7 @@
 	)
 	(hierarchical_label "ACC2_DIR"
 		(shape output)
-		(at 95.25 130.81 180)
+		(at 85.09 130.81 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4904,7 +4956,7 @@
 	)
 	(hierarchical_label "ACC2_TX"
 		(shape input)
-		(at 95.25 137.16 180)
+		(at 85.09 137.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5971,6 +6023,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 137.16 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3be454de-4ab4-4f86-a7cf-d6f0b68c9cac")
+		(property "Reference" "R209"
+			(at 93.472 135.382 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 100.584 135.382 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "abd17122-2539-4a68-ad0b-8c6222ffdeb1")
+		)
+		(pin "2"
+			(uuid "83378025-12c7-4ae2-a7a6-24e2306b1598")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 105.41 82.55 0)
 		(mirror x)
@@ -6802,6 +6936,87 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 147.32 130.81 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "5b8ec861-d760-46b1-b3cb-c7e99ded5eab")
+		(property "Reference" "R216"
+			(at 153.416 130.048 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "120"
+			(at 152.146 131.826 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 147.32 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "da6037cb-2e15-4766-b741-07a3cfef80b0")
+		)
+		(pin "2"
+			(uuid "c5507155-b59f-43c6-8b86-d3de4d49de65")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R216")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 182.88 115.57 0)
 		(mirror x)
 		(unit 1)
@@ -7207,6 +7422,170 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
 					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 125.73 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9af2fa83-822b-4c92-b84f-b8eb2330cbea")
+		(property "Reference" "R207"
+			(at 93.472 123.952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 100.584 123.952 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3d257f44-37a3-4e59-ae60-6a4c5b7fb28c")
+		)
+		(pin "2"
+			(uuid "754b26c0-87b1-4d15-a6db-e573d6da9031")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 127 109.22 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2a49f66-d348-4dbf-8abe-c00e142d00dd")
+		(property "Reference" "R210"
+			(at 120.904 108.458 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 122.428 110.236 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 127 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3a80826f-aae5-477d-8ef7-eee74897b5e2")
+		)
+		(pin "2"
+			(uuid "b146bd0d-76ec-4334-a610-7e0b9f13b47d")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R210")
 					(unit 1)
 				)
 			)
@@ -8148,7 +8527,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 133.35 109.22 0)
+		(at 133.35 104.14 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -8159,7 +8538,7 @@
 		(dnp no)
 		(uuid "ce0ab251-3d82-439e-b58e-38207a28284f")
 		(property "Reference" "#PWR0197"
-			(at 133.35 113.03 0)
+			(at 133.35 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8170,7 +8549,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 133.35 105.41 0)
+			(at 133.35 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8180,7 +8559,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 109.22 0)
+			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8191,7 +8570,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 133.35 109.22 0)
+			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8202,7 +8581,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 133.35 109.22 0)
+			(at 133.35 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,6 +9119,88 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
 					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 95.25 130.81 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e926d092-44c4-4a93-a705-8298c70c1a66")
+		(property "Reference" "R208"
+			(at 93.472 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 100.584 129.032 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 95.25 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "994e3a89-1b7f-4faf-897d-e73ae7ae825e")
+		)
+		(pin "2"
+			(uuid "80aaf6aa-3261-4d9f-bbae-a436568e4d35")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/fedb4238-67a7-4c82-80ef-de47280808e4"
+					(reference "R208")
 					(unit 1)
 				)
 			)
