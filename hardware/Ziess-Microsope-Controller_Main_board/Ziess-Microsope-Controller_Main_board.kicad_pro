@@ -754,7 +754,7 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "R202-217,U19",
+    "used_designators": "R202-217,U19,JP1-2,TP1-5,#PWR211,#PWR216-217,C159",
     "variants": []
   },
   "sheets": [
