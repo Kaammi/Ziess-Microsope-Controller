@@ -2226,12 +2226,6 @@
 		(uuid "206ef75d-78a8-442e-9fa6-b13f9800ea56")
 	)
 	(junction
-		(at 181.61 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20fcb1d3-ab1b-4112-babe-f80d502478d4")
-	)
-	(junction
 		(at 30.48 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2506,6 +2500,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb4f65d5-1322-4fb0-9ebb-f5e57a11adbb")
+	)
+	(junction
+		(at 181.61 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2fc9979-b22d-4b18-ac40-f5e13c19efc6")
 	)
 	(junction
 		(at 62.23 96.52)
@@ -5876,6 +5876,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 97.79 100.33 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5885,7 +5886,7 @@
 		(dnp no)
 		(uuid "01cd6a37-85a9-44e3-aa9a-1a8b5499fddb")
 		(property "Reference" "J15"
-			(at 96.52 95.25 0)
+			(at 96.266 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5896,7 +5897,7 @@
 			)
 		)
 		(property "Value" "BM03B-GHS-TBT"
-			(at 92.71 105.41 0)
+			(at 96.266 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7946,6 +7947,7 @@
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 99.06 132.08 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7955,7 +7957,7 @@
 		(dnp no)
 		(uuid "39f94032-1639-410d-9bf3-022b924a3045")
 		(property "Reference" "J17"
-			(at 97.79 127 0)
+			(at 97.536 127 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7966,7 +7968,7 @@
 			)
 		)
 		(property "Value" "BM03B-GHS-TBT"
-			(at 93.98 137.16 0)
+			(at 98.044 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
