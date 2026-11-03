@@ -5912,7 +5912,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.77 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5994,7 +5994,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 148.59 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -6507,7 +6507,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 247.65 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -6825,7 +6825,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 127 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -6906,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 49.53 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -7145,7 +7145,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -7226,7 +7226,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 139.7 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7468,7 +7468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 257.81 25.4 0)
 			(hide yes)
 			(show_name no)
@@ -7549,7 +7549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -8045,7 +8045,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 132.08 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8126,7 +8126,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 182.88 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -8205,7 +8205,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 165.1 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8298,7 +8298,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 153.67 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8379,7 +8379,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 76.2 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8460,7 +8460,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -8509,6 +8509,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 20.32 66.04 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb021b80-c55d-42e6-bd59-c4204a998aff")
+		(property "Reference" "J1"
+			(at 20.32 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "172447-0006"
+			(at 20.066 58.166 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Library:172447-YY06"
+			(at 20.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "6"
+			(uuid "05b3e759-8f04-4e57-86e8-7addb878999a")
+		)
+		(pin "1"
+			(uuid "c406434b-b891-4430-90e1-9f33535915cb")
+		)
+		(pin "3"
+			(uuid "4464e96b-55e0-4a03-990e-d444d49464bc")
+		)
+		(pin "5"
+			(uuid "0f0787d1-b4f7-4450-9e23-badcf62ecfd0")
+		)
+		(pin "2"
+			(uuid "83d7d37a-211e-4093-bdb8-e1f66f1c614b")
+		)
+		(pin "4"
+			(uuid "76c67172-31e0-4f7b-8138-0df9c7e4083c")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/574cc6dd-7261-4d64-9e81-9fb2a2b614cb"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 54.61 142.24 180)
 		(unit 1)
@@ -8541,7 +8633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 54.61 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8703,7 +8795,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8785,7 +8877,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 181.61 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -8943,7 +9035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
 			(at 157.48 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -9003,97 +9095,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 20.32 68.58 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "da32b7ea-fb33-4b1f-ae0c-841120cc3e2e")
-		(property "Reference" "J1"
-			(at 20.32 58.166 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "172447-0006"
-			(at 20.066 76.454 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Library:172447-YY06"
-			(at 20.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 20.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 20.32 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "6"
-			(uuid "a2b0edec-59b3-42f9-ae42-c134d743ec81")
-		)
-		(pin "1"
-			(uuid "af288103-eefd-4e3a-b250-6221f8b81909")
-		)
-		(pin "3"
-			(uuid "7405995f-ffc7-4be1-971f-515320bbd71c")
-		)
-		(pin "5"
-			(uuid "5ac21d92-8425-4fa2-942a-fe78e8976a1d")
-		)
-		(pin "2"
-			(uuid "4a3e86e1-d0e2-4f9b-a4e9-d14fc723c3d8")
-		)
-		(pin "4"
-			(uuid "ed8c19c3-5245-4859-a8a2-935f1aee4da9")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/574cc6dd-7261-4d64-9e81-9fb2a2b614cb"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 115.57 107.95 0)
 		(unit 1)
@@ -9126,7 +9127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 115.57 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -9446,7 +9447,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 173.99 109.22 0)
 			(hide yes)
 			(show_name no)
