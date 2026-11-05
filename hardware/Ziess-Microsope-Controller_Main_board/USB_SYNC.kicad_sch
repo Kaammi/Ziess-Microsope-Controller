@@ -5,14 +5,14 @@
 	(uuid "bdec01a4-a6c6-41d3-ba99-4e45e7715750")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74AHCT1G125"
+		(symbol "74AHCT1G125_1"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U17"
-				(at 12.192 -2.032 0)
+			(property "Reference" "U8"
+				(at -15.24 -4.9532 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -22,7 +22,7 @@
 				)
 			)
 			(property "Value" "74AHCT1G125"
-				(at 7.366 -4.064 0)
+				(at -15.24 -2.4132 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -31,7 +31,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -86,7 +86,7 @@
 					)
 				)
 			)
-			(symbol "74AHCT1G125_0_1"
+			(symbol "74AHCT1G125_1_0_1"
 				(polyline
 					(pts
 						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
@@ -100,7 +100,7 @@
 					)
 				)
 			)
-			(symbol "74AHCT1G125_1_1"
+			(symbol "74AHCT1G125_1_1_1"
 				(pin input inverted
 					(at 2.54 8.89 270)
 					(length 7.62)
@@ -421,8 +421,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J18"
-				(at 3.81 0.9769 0)
+			(property "Reference" "J5"
+				(at 2.794 0.762 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -432,8 +432,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Conn_Coaxial"
-				(at 3.81 -1.5631 0)
+			(property "Value" "U.FL-R-SMT-1_10"
+				(at 2.54 -1.524 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -443,7 +443,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Library:U.FL-R-SMT-1_10_"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -561,9 +561,9 @@
 			)
 			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
-					(at -5.08 0 0)
+					(at 0 -5.08 90)
 					(length 2.54)
-					(name "In"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -581,6 +581,7 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 2.54)
+					(hide yes)
 					(name "Ext"
 						(effects
 							(font
@@ -597,10 +598,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -5.08 90)
+					(at -5.08 0 0)
 					(length 2.54)
-					(hide yes)
-					(name "Ext"
+					(name "In"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -608,44 +608,6 @@
 						)
 					)
 					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(hide yes)
-					(name "Ext"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4790,7 +4752,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.09 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -5009,7 +4971,7 @@
 		(dnp no)
 		(uuid "10ebd9c4-57b0-44f8-9c7f-bcb33c6caa4c")
 		(property "Reference" "R52"
-			(at 182.626 65.024 0)
+			(at 181.61 65.024 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5030,7 +4992,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 176.53 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5389,12 +5351,6 @@
 		(pin "1"
 			(uuid "b4ec6a39-66f6-4bb6-86e5-e7d3af1247b4")
 		)
-		(pin "4"
-			(uuid "55dab059-d724-423f-a833-6e49b5720138")
-		)
-		(pin "5"
-			(uuid "c575207c-935d-4e29-918b-d06978f93cab")
-		)
 		(pin "3"
 			(uuid "5ceb18ad-d997-4391-861f-9b9e27462836")
 		)
@@ -5521,7 +5477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 129.54 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -5856,7 +5812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 102.87 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5938,7 +5894,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 212.09 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6019,7 +5975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -6417,7 +6373,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 157.48 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -6498,7 +6454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 207.01 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6660,7 +6616,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -6742,7 +6698,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -6824,7 +6780,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -6906,7 +6862,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 120.65 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6967,7 +6923,7 @@
 		(dnp no)
 		(uuid "8951c634-f24e-44f0-b726-4c59a77ce2fa")
 		(property "Reference" "R47"
-			(at 195.834 48.514 0)
+			(at 197.104 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6988,7 +6944,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 201.93 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7116,6 +7072,96 @@
 		)
 	)
 	(symbol
+		(lib_name "74AHCT1G125_1")
+		(lib_id "74xGxx:74AHCT1G125")
+		(at 156.21 113.03 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c01cf36-cad3-49c2-89a5-c974b8f775c4")
+		(property "Reference" "U8"
+			(at 171.45 117.9832 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74AHCT1G125"
+			(at 171.45 115.4432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
+			(at 156.21 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "894190f4-ea78-4fa0-affa-65de5766202e")
+		)
+		(pin "2"
+			(uuid "60836208-6856-488b-9a4c-0a755fb7cb4d")
+		)
+		(pin "3"
+			(uuid "2c4c2b86-b0e1-44a3-947d-1378cbad053b")
+		)
+		(pin "4"
+			(uuid "6e29a5b6-2ea8-4386-828e-14c10cfc702f")
+		)
+		(pin "5"
+			(uuid "79c26c8a-1b00-4258-adc7-187298b92f66")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/9a1edd20-d1dd-409b-a048-afb26cacd5cc"
+					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 161.29 124.46 0)
 		(mirror y)
@@ -7229,7 +7275,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 142.24 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -7562,7 +7608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 128.27 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7814,95 +7860,6 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74AHCT1G125")
-		(at 156.21 113.03 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c09ae919-0860-4171-ae7d-6d69e0bc1392")
-		(property "Reference" "U8"
-			(at 144.018 115.062 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74AHCT1G125"
-			(at 148.844 117.094 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-			(at 156.21 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9a4638a7-3ab6-464b-be10-309a505b28da")
-		)
-		(pin "5"
-			(uuid "423f69b7-ebec-42c6-b192-ba8e46bf85ad")
-		)
-		(pin "4"
-			(uuid "4756e9fb-0c5c-43a1-bf6d-074de79a343b")
-		)
-		(pin "3"
-			(uuid "ee9d4eac-e405-4e9c-83a6-3dee0d93be3d")
-		)
-		(pin "2"
-			(uuid "e61d9d04-47e3-4132-a8ce-a8ff41d1a609")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/9a1edd20-d1dd-409b-a048-afb26cacd5cc"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 134.62 49.53 180)
 		(unit 1)
@@ -7935,7 +7892,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 134.62 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -8176,7 +8133,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 167.64 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -8257,7 +8214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 168.91 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8339,7 +8296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 129.54 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8549,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 177.8 113.03 0)
 			(hide yes)
 			(show_name no)
