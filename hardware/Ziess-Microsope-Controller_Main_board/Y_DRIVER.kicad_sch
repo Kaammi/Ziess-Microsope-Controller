@@ -7803,7 +7803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0424_1x04-1MP_P3.00mm_Vertical"
+		(property "Footprint" "Library:Molex_Micro-Fit_3.0_43650-0424_1x04-1MP_P3.00mm_Vertical"
 			(at 243.84 106.68 0)
 			(hide yes)
 			(show_name no)

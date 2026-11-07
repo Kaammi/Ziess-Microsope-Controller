@@ -754,7 +754,7 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "C99,C154",
+    "used_designators": "C99,C154,C161-162",
     "variants": []
   },
   "sheets": [
