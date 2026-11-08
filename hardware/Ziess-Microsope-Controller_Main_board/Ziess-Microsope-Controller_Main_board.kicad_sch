@@ -1007,6 +1007,133 @@
 		)
 	)
 	(sheet
+		(at 148.59 146.05)
+		(size 24.13 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4ba59c21-d24b-4ce4-b0e9-c60707d68067")
+		(property "Sheetname" "ACC2"
+			(at 148.59 167.132 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ACC1.kicad_sch"
+			(at 200.7366 157.988 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACC1_DIR" output
+			(at 168.91 146.05 90)
+			(uuid "4d96fa02-fe62-4fb5-bfe6-4abe3046bbde")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_IMON" output
+			(at 162.56 146.05 90)
+			(uuid "bab41903-d574-4758-aa0d-c88677c6d15d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_PG" output
+			(at 160.02 146.05 90)
+			(uuid "804cae87-0568-4418-a44c-7a41c9a1989f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_PRESENT" output
+			(at 151.13 146.05 90)
+			(uuid "6e9b2e34-9cee-462c-9998-c48bc33880e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_PWR_EN" input
+			(at 157.48 146.05 90)
+			(uuid "73b95421-d0cb-4369-a87e-d98041df1b44")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_PWR_FLG" output
+			(at 153.67 146.05 90)
+			(uuid "7a404d1e-51d7-4b03-8723-ec9d6a7aa0d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_RX" output
+			(at 166.37 146.05 90)
+			(uuid "f5e9af2c-70f0-4406-a2c9-4e2b175b2332")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACC1_TX" input
+			(at 171.45 146.05 90)
+			(uuid "b3b358a9-e8bd-4103-ac22-0e009581626d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 26.67 16.51)
 		(size 38.1 43.18)
 		(exclude_from_sim no)
@@ -2355,12 +2482,13 @@
 		)
 	)
 	(sheet
-		(at 175.26 146.05)
+		(at 173.99 146.05)
 		(size 24.13 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -2368,9 +2496,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "ed3a31e7-07f7-4833-9376-9b16c566fbf1")
+		(uuid "d5e25e23-d502-4a87-9478-3c3a6555ea5d")
 		(property "Sheetname" "ACC3"
-			(at 175.26 167.132 0)
+			(at 173.99 167.132 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2380,8 +2508,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "ACC3.kicad_sch"
-			(at 227.4066 157.988 90)
+		(property "Sheetfile" "ACC1.kicad_sch"
+			(at 226.1366 157.988 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2392,9 +2520,9 @@
 				(justify left top)
 			)
 		)
-		(pin "ACC3_DIR" output
-			(at 195.58 146.05 90)
-			(uuid "d2fc3b08-94ad-4fa6-addc-d2750ff30b93")
+		(pin "ACC1_DIR" output
+			(at 194.31 146.05 90)
+			(uuid "82ec09af-3dd7-4d32-8bce-57d7024b1781")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,9 +2530,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_IMON" output
-			(at 189.23 146.05 90)
-			(uuid "2a023496-858b-44ee-be4a-51eabc829e52")
+		(pin "ACC1_IMON" output
+			(at 187.96 146.05 90)
+			(uuid "e103edf0-6bf1-455b-b0e7-42960fa39f9f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2412,9 +2540,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_PG" output
-			(at 186.69 146.05 90)
-			(uuid "4b9c5da1-e82d-4280-836e-96476bc8f209")
+		(pin "ACC1_PG" output
+			(at 185.42 146.05 90)
+			(uuid "185af8e5-0e4c-49fe-9f15-8946300e5a8f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2422,9 +2550,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_PRESENT" output
-			(at 177.8 146.05 90)
-			(uuid "6ba6e3f8-78f1-4d59-8ec2-d16e8fcf328d")
+		(pin "ACC1_PRESENT" output
+			(at 176.53 146.05 90)
+			(uuid "0ab906d9-6d5c-4cf8-afcb-4270dc9cf031")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2432,9 +2560,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_PWR_EN" input
-			(at 184.15 146.05 90)
-			(uuid "f8bd6319-f4e7-4156-ae5a-54bf030c76fa")
+		(pin "ACC1_PWR_EN" input
+			(at 182.88 146.05 90)
+			(uuid "dda3fc31-1c12-4baa-b376-f903d0c9b852")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2442,9 +2570,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_PWR_FLG" output
-			(at 180.34 146.05 90)
-			(uuid "b5c19167-297e-4637-97ea-e8fb3373a307")
+		(pin "ACC1_PWR_FLG" output
+			(at 179.07 146.05 90)
+			(uuid "e909ce21-5a29-4f3d-aaab-cdb7719657ae")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2452,9 +2580,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_RX" output
-			(at 193.04 146.05 90)
-			(uuid "0480615d-09d4-4c6b-bbe9-5a91091baea2")
+		(pin "ACC1_RX" output
+			(at 191.77 146.05 90)
+			(uuid "12a7bc9d-55f2-417b-9b0a-5e9926df31a3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,9 +2590,9 @@
 				(justify right)
 			)
 		)
-		(pin "ACC3_TX" input
-			(at 198.12 146.05 90)
-			(uuid "068eca4b-6a9f-4228-a59b-b7cc1b5d7853")
+		(pin "ACC1_TX" input
+			(at 196.85 146.05 90)
+			(uuid "6be37e3f-7013-4862-a6a3-f3d2fbbba84e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2603,7 @@
 		(instances
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
-					(page "12")
+					(page "11")
 				)
 			)
 		)
@@ -2533,132 +2661,6 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
 					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 149.86 146.05)
-		(size 24.13 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "fedb4238-67a7-4c82-80ef-de47280808e4")
-		(property "Sheetname" "ACC2"
-			(at 149.86 167.132 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "ACC2.kicad_sch"
-			(at 202.0066 157.988 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "ACC2_DIR" output
-			(at 170.18 146.05 90)
-			(uuid "27c4be10-e096-4ee6-982c-4b289259de8d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_IMON" output
-			(at 163.83 146.05 90)
-			(uuid "936e7403-2e6c-4b1b-8906-4e2df6c1d2f5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_PG" output
-			(at 161.29 146.05 90)
-			(uuid "ed6d2c79-e1b5-4fd9-8e56-7173f028a82b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_PRESENT" output
-			(at 152.4 146.05 90)
-			(uuid "0731df1d-b34a-4638-a2d7-79d059ef9d52")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_PWR_EN" input
-			(at 158.75 146.05 90)
-			(uuid "e7950dea-61a5-4fc0-9ecf-884f9360e51e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_PWR_FLG" output
-			(at 154.94 146.05 90)
-			(uuid "cc3d9864-03b6-4f45-a8e1-c5c884424565")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_RX" output
-			(at 167.64 146.05 90)
-			(uuid "9538670a-bebf-4b17-95dc-439d2e9a27d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "ACC2_TX" input
-			(at 172.72 146.05 90)
-			(uuid "f19145ec-ae92-4bc0-b5bc-8e04f59443e4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
-					(page "10")
 				)
 			)
 		)
