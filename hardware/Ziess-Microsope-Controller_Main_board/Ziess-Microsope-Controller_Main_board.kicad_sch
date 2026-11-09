@@ -1328,123 +1328,6 @@
 		)
 	)
 	(sheet
-		(at 234.95 67.31)
-		(size 21.59 24.13)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0)
-		)
-		(uuid "99061527-4f22-4484-ae98-653e9a666144")
-		(property "Sheetname" "Y_DRIVER"
-			(at 234.95 66.5984 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Y_DRIVER.kicad_sch"
-			(at 234.95 91.7706 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "XY_UART_RX" input
-			(at 234.95 82.55 180)
-			(uuid "24e6db13-2a76-43b5-ba06-73fbff66e392")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "XY_UART_TX" output
-			(at 234.95 85.09 180)
-			(uuid "108f7757-8ab9-4710-b85e-a773e9b923e3")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Y_DIAG" output
-			(at 234.95 88.9 180)
-			(uuid "f05a630e-16a6-449e-8ead-e48d7be25b14")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Y_DIR" input
-			(at 234.95 76.2 180)
-			(uuid "5bdd8d08-b00f-4a70-85a1-a610f5be3417")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Y_EN" input
-			(at 234.95 69.85 180)
-			(uuid "d1ac1090-bb46-4f22-8d66-dd174bb0b6b7")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Y_STDBY" input
-			(at 234.95 72.39 180)
-			(uuid "2e08fa06-ce36-48cf-acfd-689aafde6741")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "Y_STEP" input
-			(at 234.95 78.74 180)
-			(uuid "2900e31b-1448-4dda-86a9-4c66bf5c9df4")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 96.52 146.05)
 		(size 24.13 19.05)
 		(exclude_from_sim no)
@@ -1546,6 +1429,123 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
 					(page "13")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 66.04)
+		(size 21.59 24.13)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "a14cb748-3556-41ff-b29f-95c6ae52f564")
+		(property "Sheetname" "Y_DRIVER"
+			(at 234.95 65.3284 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "X_DRIVER.kicad_sch"
+			(at 234.95 90.7546 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "XY_UART_RX" input
+			(at 234.95 81.28 180)
+			(uuid "be588444-2f86-42b7-9464-330f89a159de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XY_UART_TX" output
+			(at 234.95 83.82 180)
+			(uuid "51c19e6a-bb4a-43d5-9667-9af05c5c4d19")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_DIAG" output
+			(at 234.95 87.63 180)
+			(uuid "b2aaefb6-a97c-4d61-8c73-787499b2130e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_DIR" input
+			(at 234.95 74.93 180)
+			(uuid "3e3a951f-1a05-4b64-b0e9-f50fbd4204fb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_EN" input
+			(at 234.95 68.58 180)
+			(uuid "d2a75c12-6ba4-4605-a095-fb46fcce655d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_STDBY" input
+			(at 234.95 71.12 180)
+			(uuid "132ff880-f27e-49c2-81a0-039adaf3419b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "X_STEP" input
+			(at 234.95 77.47 180)
+			(uuid "718e8543-ac65-417c-b011-6be620050e6d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc"
+					(page "5")
 				)
 			)
 		)

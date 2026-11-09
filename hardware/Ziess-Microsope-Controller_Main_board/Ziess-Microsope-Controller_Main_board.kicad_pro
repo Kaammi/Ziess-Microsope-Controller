@@ -63,10 +63,10 @@
           "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.2,
-          "pad_connection": 2,
+          "pad_connection": 1,
           "remove_islands": 0,
           "thermal_relief_gap": 0.2,
-          "thermal_relief_spoke_width": 1.0
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -754,7 +754,7 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "C64,C99,C145,C147-162,D17-24,#PWR191-214,#PWR220-223,R168-201,R207-214,R216-217,R219-220,J21-22,Q4-5,TP4,TP6-12,U22-25",
+    "used_designators": "D7,#PWR69,#PWR84-100,C82-98,C154,R77-92,J7,TP18-19,U11",
     "variants": []
   },
   "sheets": [
@@ -775,7 +775,7 @@
       "X_DRIVER"
     ],
     [
-      "99061527-4f22-4484-ae98-653e9a666144",
+      "a14cb748-3556-41ff-b29f-95c6ae52f564",
       "Y_DRIVER"
     ],
     [
