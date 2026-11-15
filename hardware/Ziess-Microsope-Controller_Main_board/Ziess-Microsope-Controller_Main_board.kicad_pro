@@ -754,7 +754,7 @@
         "uuid": "95dcf840-9c51-41a6-a651-184d1d08cccc"
       }
     ],
-    "used_designators": "U26",
+    "used_designators": "U26,R221-222,J19,TP13-15,#PWR216-217",
     "variants": []
   },
   "sheets": [
@@ -796,11 +796,11 @@
     ],
     [
       "4ba59c21-d24b-4ce4-b0e9-c60707d68067",
-      "ACC2"
+      "ACC3"
     ],
     [
       "d5e25e23-d502-4a87-9478-3c3a6555ea5d",
-      "ACC3"
+      "ACC2"
     ],
     [
       "9a1edd20-d1dd-409b-a048-afb26cacd5cc",

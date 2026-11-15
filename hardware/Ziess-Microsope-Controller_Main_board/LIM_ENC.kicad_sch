@@ -5730,7 +5730,7 @@
 		)
 		(uuid "72c3b821-626b-412b-b705-a7935df4b01d")
 	)
-	(hierarchical_label "XY_ENC_CLK"
+	(hierarchical_label "X_ENC_CLK"
 		(shape input)
 		(at 170.18 74.93 180)
 		(effects
@@ -5752,7 +5752,7 @@
 		)
 		(uuid "78acad2e-394b-4f88-bff1-b59c079f5406")
 	)
-	(hierarchical_label "XY_ENC_CLK"
+	(hierarchical_label "Y_ENC_CLK"
 		(shape input)
 		(at 170.18 139.7 180)
 		(effects
@@ -10454,100 +10454,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x06")
-		(at 163.83 182.88 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8682bb95-77a4-44a7-9807-a48d8c25ce0e")
-		(property "Reference" "J19"
-			(at 162.56 172.085 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BM06B-GHS-TBT"
-			(at 157.48 190.5 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Library:BM06BGHSTBTLFSN"
-			(at 163.83 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 163.83 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c07e1f46-9e46-4b26-a1bc-bb231b2b4b58")
-		)
-		(pin "3"
-			(uuid "00953174-1c61-4660-b266-f50efe48e016")
-		)
-		(pin "4"
-			(uuid "16b1144e-7412-4239-b300-1815b2dc8d5f")
-		)
-		(pin "6"
-			(uuid "4b6efaf0-6d3d-401c-bc2b-e42eb3fffbbf")
-		)
-		(pin "2"
-			(uuid "40e84de0-bc43-41b2-880c-650ed269af6b")
-		)
-		(pin "5"
-			(uuid "a75da15b-dba3-4767-ac8c-da2b2305a46d")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/c5484051-8362-473e-a51a-d9e129cb3c37"
-					(reference "J19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 29.21 85.09 0)
 		(unit 1)
@@ -11354,6 +11260,99 @@
 			(project "Ziess-Microsope-Controller_Main_board"
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/c5484051-8362-473e-a51a-d9e129cb3c37"
 					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 163.83 180.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d8a639f-be2d-406b-95a9-918dcf3f5c5a")
+		(property "Reference" "J19"
+			(at 162.306 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BM06B-GHS-TBT"
+			(at 158.496 190.754 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Library:BM06BGHSTBTLFSN"
+			(at 163.83 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 163.83 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6add577d-4ca9-45c6-bde1-9a0fd663c2d4")
+		)
+		(pin "3"
+			(uuid "c3a071bd-691e-41c7-9ab3-eee1488e970c")
+		)
+		(pin "4"
+			(uuid "b274cad5-7ce2-447f-80bf-6fd78349c32a")
+		)
+		(pin "6"
+			(uuid "e75efc0e-47cd-4526-9e03-d460c6c4e64c")
+		)
+		(pin "2"
+			(uuid "a8e4ea9b-44b8-47d8-aa67-c1b138d42a70")
+		)
+		(pin "5"
+			(uuid "129a5ba0-4a9a-4c52-937f-6e2629d12afe")
+		)
+		(instances
+			(project "Ziess-Microsope-Controller_Main_board"
+				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/c5484051-8362-473e-a51a-d9e129cb3c37"
+					(reference "J19")
 					(unit 1)
 				)
 			)

@@ -2224,12 +2224,6 @@
 		(uuid "5d794d06-b936-4c6b-bc33-4a47f37f8fe5")
 	)
 	(junction
-		(at 113.03 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "63cf97cb-f141-46b8-98ad-0efc28ea5671")
-	)
-	(junction
 		(at 166.37 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2959,16 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 82.55) (xy 113.03 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66797439-4575-4099-9d02-eacf846f2ac7")
-	)
-	(wire
-		(pts
 			(xy 189.23 50.8) (xy 189.23 54.61)
 		)
 		(stroke
@@ -3429,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 82.55) (xy 128.27 82.55)
+			(xy 110.49 82.55) (xy 128.27 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6877,88 +6861,6 @@
 				)
 				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a14cb748-3556-41ff-b29f-95c6ae52f564"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 113.03 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b052b509-af0e-4e25-9fc8-24e7610c4ff5")
-		(property "Reference" "TP16"
-			(at 114.3 79.248 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "X_UART"
-			(at 114.046 81.026 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 118.11 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 113.03 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4bde89bd-f45c-4210-96c6-972b28b17681")
-		)
-		(instances
-			(project "Ziess-Microsope-Controller_Main_board"
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/636539e4-7620-4fbb-9712-2c2ce80fc895"
-					(reference "TP16")
-					(unit 1)
-				)
-				(path "/95dcf840-9c51-41a6-a651-184d1d08cccc/a14cb748-3556-41ff-b29f-95c6ae52f564"
-					(reference "TP18")
 					(unit 1)
 				)
 			)
